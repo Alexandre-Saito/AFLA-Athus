@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "AFLA Athus", "AFLA Athus.dtproj", "{BB59855F-775B-4512-9F05-21931D0E8F51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB59855F-775B-4512-9F05-21931D0E8F51}.Development|Default.ActiveCfg = Development
+		{BB59855F-775B-4512-9F05-21931D0E8F51}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8ECC9E9-FA82-42A1-A721-AFA4C1AD4CF1}
+	EndGlobalSection
+EndGlobal
