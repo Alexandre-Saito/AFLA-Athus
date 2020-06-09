@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="ds191009t.dw_dixie.dw_la"
+  DTS:DTSID="{89D526A1-B286-41B0-9809-ACF6AFDA0826}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=ds191009t;User ID=dw_la;Initial Catalog=dw_dixie;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA1UIGZ2dUX0ehMb+4FBKBNAAAAAACAAAAAAADZgAAwAAAABAAAAArx9zH8VOPGxdWj4SKN7FkAAAAAASAAACgAAAAEAAAAG+NPD138cCGgrMCLyrmAvZ4AAAAOXwUCLmUVoPIhkBFQaiNajbI+z23waKONJdqwnPG9rfARilwnEYyzkHjCBKMoUHgbVrCPMBFG0lgzWYz+26oLEOcQQbaPxxpbF/Bt9r4J5PtIiJeCkAhlCBAGasY0aXXFzHju+tLV+lno2acIw8KNBcP3EySsP6ZFAAAAB415kF4sIjV1mGdZ6ob0RD1L+D7</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
