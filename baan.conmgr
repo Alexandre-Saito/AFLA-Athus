@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="ds191050T_baanarg.baandb.dw_la"
+  DTS:DTSID="{26F331B8-A6D4-4D2F-96D7-7BEB12CB87C2}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=ds191050T\baanarg;User ID=dw_la;Initial Catalog=baandb;Provider=SQLNCLI11.1;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA1UIGZ2dUX0ehMb+4FBKBNAAAAAACAAAAAAADZgAAwAAAABAAAADA0O9q88oINsQF5iBMo+yiAAAAAASAAACgAAAAEAAAAJ3M33+KdDKgtukxhfb5lS94AAAAOay88niCtLp2YrwSYWPS1cUOpznJebnngFVKkVPn6mAj43QHGH4RizKk6x03dmuMuWE/eTfW/PWfw/BNpWF4VbCl7LLnBZMQ5Pls4jc6PZCMRnMvCUoBUNEHKDlwH+/6y36GHbyL2f7HzFdPQdU7cwqhaGngMPf1FAAAAAhvjhqPstEbaMDTBvSyZoWhoisu</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
