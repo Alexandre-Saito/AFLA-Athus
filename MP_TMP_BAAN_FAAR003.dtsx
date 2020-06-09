@@ -5,20 +5,20 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="WRK191LB0S6Y02"
   DTS:CreatorName="BEMIS\d0107640"
-  DTS:DTSID="{C0D963FC-D56D-48EA-8A7C-67F7201C3246}"
+  DTS:DTSID="{3AEF20B4-730C-49EA-A17B-6CADA775BBDD}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.121"
   DTS:LocaleID="1046"
-  DTS:ObjectName="MP_TMP_BAAN_FAAP003"
+  DTS:ObjectName="MP_TMP_BAAN_FAAR003"
   DTS:PackageType="5"
-  DTS:VersionBuild="13"
-  DTS:VersionGUID="{20E3E347-7193-479F-9301-30F76B8406CA}">
+  DTS:VersionBuild="14"
+  DTS:VersionGUID="{23132B8F-38CF-492F-8780-969F02AC72A6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{9309200C-1AFA-4912-ACB3-1F13084CDF34}"
+      DTS:DTSID="{359219CB-1452-4CCE-9449-660DFCC078EC}"
       DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="v_AuditKey">
@@ -27,7 +27,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{D6CD8F36-7792-4E90-BD85-29762E062CC6}"
+      DTS:DTSID="{8234A66F-6831-4AC4-9ECD-EEA441CAD83C}"
       DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="v_CdMapa">
@@ -36,7 +36,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{B413DCAF-0771-43EE-AC8F-0B62C5F24152}"
+      DTS:DTSID="{DD91C5C4-FE30-425D-976A-836E263C880A}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="v_DtParFimCarga">
@@ -46,7 +46,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{34852067-0DBF-494C-886E-1918480FBFC0}"
+      DTS:DTSID="{D2297D9C-F998-4477-9348-C48B0DCEDF29}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="v_DtParIniCarga">
@@ -56,7 +56,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{EB3B75AA-4D3D-44A5-BB75-A50511103C14}"
+      DTS:DTSID="{89A63802-3CBE-4540-9D3F-F8450F0894BA}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="v_Filtro1">
@@ -66,7 +66,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{9490D610-16E3-4BAD-868F-C6F5A9613234}"
+      DTS:DTSID="{20AD7B5D-A4C7-4E02-9D8B-B5F33A7309E7}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="v_Filtro2">
@@ -76,7 +76,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{C776D70A-0F33-4EC4-A719-F94D7F35941C}"
+      DTS:DTSID="{BFC633E2-DBC5-483C-AF8B-C23A47692040}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="v_Filtro3">
@@ -86,7 +86,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{A5F9D5F9-8D20-4220-B9AF-171303BEDD1C}"
+      DTS:DTSID="{E83F4D92-BEAD-4E42-8143-2924570546DC}"
       DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="v_RC_Erros">
@@ -95,7 +95,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{53CA1017-2622-4E44-B4C4-FCE9BD7E8C2F}"
+      DTS:DTSID="{18DA0DE3-8A03-4ACB-990A-1510ADF3D4BC}"
       DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="v_RC_Extracao">
@@ -104,7 +104,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{67C4538C-9D1D-483A-93D4-7F66AA5B1F4C}"
+      DTS:DTSID="{14B7CA88-A1C1-4BE8-A2BC-015E26BB6877}"
       DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="v_RC_Final">
@@ -113,7 +113,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{EF03BA4B-154B-4D10-ADBA-315FF3E5A7A9}"
+      DTS:DTSID="{F0C4F6D5-B087-4DF7-A152-8AD2BC5406F6}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="v_TabelaPrincipal">
@@ -127,7 +127,7 @@
       DTS:refId="Package\EST Apaga Ultimos Erros Carga"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarefa Executar SQL"
-      DTS:DTSID="{E59EA25B-414C-4308-8FE2-88BE0D4B53F1}"
+      DTS:DTSID="{F372203E-5479-4F85-828A-4B02A23C826A}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="EST Apaga Ultimos Erros Carga"
@@ -151,7 +151,7 @@
       DTS:refId="Package\EST Atualiza +1 em Data"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarefa Executar SQL"
-      DTS:DTSID="{71EE3D6D-E370-4C28-AA2C-D9F5CD3856F8}"
+      DTS:DTSID="{E73B24B5-B8F5-4B8C-A55F-617544870C15}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="EST Atualiza +1 em Data"
@@ -175,7 +175,7 @@
       DTS:refId="Package\EST Atualiza Dim Auditoria"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarefa Executar SQL"
-      DTS:DTSID="{1A8C1EC6-B72D-42B8-B88B-65453469B20D}"
+      DTS:DTSID="{3F247CEE-A49E-4981-B766-B1C0C190663A}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="EST Atualiza Dim Auditoria"
@@ -211,7 +211,7 @@
       DTS:refId="Package\EST Atualiza Dim Auditoria 1"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarefa Executar SQL"
-      DTS:DTSID="{5DB4A41D-CC10-4E9D-81AE-9F2457A8242C}"
+      DTS:DTSID="{4F6485CD-6906-4621-8A4D-22AE834A0EA1}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="EST Atualiza Dim Auditoria 1"
@@ -235,7 +235,7 @@
       DTS:refId="Package\EST Busca Parametro"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarefa Executar SQL"
-      DTS:DTSID="{AC729C6B-C9A4-4F12-90C4-5A03E4C7F294}"
+      DTS:DTSID="{1A84C157-6952-4BEF-BF21-F3B9306DF252}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="EST Busca Parametro"
@@ -278,7 +278,7 @@
       DTS:refId="Package\EST Insere DIM_Auditoria"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarefa Executar SQL"
-      DTS:DTSID="{CFB78380-D86C-4032-AFF5-4BDE32351F84}"
+      DTS:DTSID="{8B8D1789-F6CD-49BA-9EFB-D6D3538BF9D3}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="EST Insere DIM_Auditoria"
@@ -306,7 +306,7 @@
       DTS:refId="Package\EST Trunca TMP"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarefa Executar SQL"
-      DTS:DTSID="{C3788380-213B-481B-926D-BD4271DBD148}"
+      DTS:DTSID="{430DFAAA-C780-4273-B1A9-2D1EFE15EDA7}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="EST Trunca TMP"
@@ -316,17 +316,17 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{89D526A1-B286-41B0-9809-ACF6AFDA0826}"
-          SQLTask:SqlStatementSource="TRUNCATE TABLE dbo.TMP_BAAN_FAAP003" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="TRUNCATE TABLE dbo.TMP_BAAN_FAAR003" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\MP_TMP_BAAN_FAAP003"
+      DTS:refId="Package\MP_TMP_BAAN_FAAR003"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:DTSID="{7AA80B58-BD7D-42A4-A0F2-ECADE7E712A2}"
+      DTS:DTSID="{033DC3AC-C979-49F9-AA92-DF7755F1B45F}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="MP_TMP_BAAN_FAAP003"
+      DTS:ObjectName="MP_TMP_BAAN_FAAR003"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:PropertyExpression
@@ -336,7 +336,7 @@
           version="1">
           <components>
             <component
-              refId="Package\MP_TMP_BAAN_FAAP003\CD TMP"
+              refId="Package\MP_TMP_BAAN_FAAR003\CD TMP"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Coluna Derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos os Direitos Reservados; http://www.microsoft.com/sql/support;0"
               description="Cria novos valores de coluna aplicando expressões a colunas de entrada da transformação. Crie novas colunas ou substitua as existentes. Por exemplo, concatene os valores das colunas 'first name' e 'last name' para formar uma coluna 'full name'."
@@ -344,56 +344,56 @@
               usesDispositions="true">
               <inputs>
                 <input
-                  refId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Inputs[Entrada de Coluna Derivada]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Inputs[Entrada de Coluna Derivada]"
                   description="Entrada para a Transformação Coluna Derivada"
                   name="Entrada de Coluna Derivada">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Inputs[Entrada de Coluna Derivada].Columns[_COD_CIA]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Inputs[Entrada de Coluna Derivada].Columns[_COD_CIA]"
                       cachedDataType="i4"
                       cachedName="_COD_CIA"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_CIA]" />
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_CIA]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Inputs[Entrada de Coluna Derivada].Columns[_COD_ERRO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Inputs[Entrada de Coluna Derivada].Columns[_COD_ERRO]"
                       cachedCodepage="1252"
                       cachedDataType="text"
                       cachedName="_COD_ERRO"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_ERRO]" />
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_ERRO]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Inputs[Entrada de Coluna Derivada].Columns[_NUM_DOCTO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Inputs[Entrada de Coluna Derivada].Columns[_NUM_DOCTO]"
                       cachedDataType="i4"
                       cachedName="_NUM_DOCTO"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_NUM_DOCTO]" />
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_NUM_DOCTO]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Inputs[Entrada de Coluna Derivada].Columns[_DES_ERRO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Inputs[Entrada de Coluna Derivada].Columns[_DES_ERRO]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="255"
                       cachedName="_DES_ERRO"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DES_ERRO]" />
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DES_ERRO]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Inputs[Entrada de Coluna Derivada].Columns[_DTA_PROC]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Inputs[Entrada de Coluna Derivada].Columns[_DTA_PROC]"
                       cachedDataType="dbDate"
                       cachedName="_DTA_PROC"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DTA_PROC]" />
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DTA_PROC]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada]"
                   description="Saída Padrão da Transformação Coluna Derivada"
                   exclusionGroup="1"
                   name="Saída de Coluna Derivada"
-                  synchronousInputId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Inputs[Entrada de Coluna Derivada]">
+                  synchronousInputId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Inputs[Entrada de Coluna Derivada]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DTA_CARGA]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DTA_CARGA]"
                       dataType="dbTimeStamp"
                       errorOrTruncationOperation="Computação"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DTA_CARGA]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DTA_CARGA]"
                       name="DTA_CARGA"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -411,11 +411,11 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[SKY_AUDITKEY]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[SKY_AUDITKEY]"
                       dataType="i4"
                       errorOrTruncationOperation="Computação"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[SKY_AUDITKEY]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[SKY_AUDITKEY]"
                       name="SKY_AUDITKEY"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -433,13 +433,13 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[GUIA_ERRO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[GUIA_ERRO]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Computação"
                       errorRowDisposition="FailComponent"
                       length="1000"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[GUIA_ERRO]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[GUIA_ERRO]"
                       name="GUIA_ERRO"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -447,7 +447,7 @@
                           containsID="true"
                           dataType="System.String"
                           description="Expressão de Coluna Derivada"
-                          name="Expression">(DT_STR,1000,1252)[SUBSTRING](("Cod Cia: " + (DT_STR,03,1252)#{Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_CIA]} + " Docto: " + (DT_STR,20,1252)#{Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_NUM_DOCTO]} + " Erro:" + (DT_STR,10,1252)#{Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_ERRO]}),1,1000)</property>
+                          name="Expression">(DT_STR,1000,1252)[SUBSTRING](("Cod Cia: " + (DT_STR,03,1252)#{Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_CIA]} + " Docto: " + (DT_STR,20,1252)#{Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_NUM_DOCTO]} + " Erro:" + (DT_STR,10,1252)#{Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_ERRO]}),1,1000)</property>
                         <property
                           containsID="true"
                           dataType="System.String"
@@ -457,11 +457,11 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[COD_CIA]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[COD_CIA]"
                       dataType="i4"
                       errorOrTruncationOperation="Computação"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[COD_CIA]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[COD_CIA]"
                       name="COD_CIA"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -469,7 +469,7 @@
                           containsID="true"
                           dataType="System.String"
                           description="Expressão de Coluna Derivada"
-                          name="Expression">(DT_I4)#{Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_CIA]}</property>
+                          name="Expression">(DT_I4)#{Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_CIA]}</property>
                         <property
                           containsID="true"
                           dataType="System.String"
@@ -479,11 +479,11 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[NUM_DOCTO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[NUM_DOCTO]"
                       dataType="i4"
                       errorOrTruncationOperation="Computação"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[NUM_DOCTO]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[NUM_DOCTO]"
                       name="NUM_DOCTO"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -491,7 +491,7 @@
                           containsID="true"
                           dataType="System.String"
                           description="Expressão de Coluna Derivada"
-                          name="Expression">(DT_I4)#{Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_NUM_DOCTO]}</property>
+                          name="Expression">(DT_I4)#{Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_NUM_DOCTO]}</property>
                         <property
                           containsID="true"
                           dataType="System.String"
@@ -501,13 +501,13 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DES_ERRO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DES_ERRO]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Computação"
                       errorRowDisposition="FailComponent"
                       length="150"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DES_ERRO]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DES_ERRO]"
                       name="DES_ERRO"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -515,7 +515,7 @@
                           containsID="true"
                           dataType="System.String"
                           description="Expressão de Coluna Derivada"
-                          name="Expression">(DT_STR,150,1252)[SUBSTRING]([TRIM](#{Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DES_ERRO]}),1,150)</property>
+                          name="Expression">(DT_STR,150,1252)[SUBSTRING]([TRIM](#{Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DES_ERRO]}),1,150)</property>
                         <property
                           containsID="true"
                           dataType="System.String"
@@ -525,13 +525,13 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[COD_ERRO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[COD_ERRO]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Computação"
                       errorRowDisposition="FailComponent"
                       length="10"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[COD_ERRO]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[COD_ERRO]"
                       name="COD_ERRO"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -539,7 +539,7 @@
                           containsID="true"
                           dataType="System.String"
                           description="Expressão de Coluna Derivada"
-                          name="Expression">(DT_STR,10,1252)#{Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_ERRO]}</property>
+                          name="Expression">(DT_STR,10,1252)#{Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_ERRO]}</property>
                         <property
                           containsID="true"
                           dataType="System.String"
@@ -549,11 +549,11 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DTA_PROC]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DTA_PROC]"
                       dataType="dbDate"
                       errorOrTruncationOperation="Computação"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DTA_PROC]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DTA_PROC]"
                       name="DTA_PROC"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -561,7 +561,7 @@
                           containsID="true"
                           dataType="System.String"
                           description="Expressão de Coluna Derivada"
-                          name="Expression">(DT_DBDATE)#{Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DTA_PROC]}</property>
+                          name="Expression">(DT_DBDATE)#{Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DTA_PROC]}</property>
                         <property
                           containsID="true"
                           dataType="System.String"
@@ -574,23 +574,23 @@
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Erro de Coluna Derivada]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Erro de Coluna Derivada]"
                   description="Saída de Erro da Transformação Coluna Derivada"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Saída de Erro de Coluna Derivada"
-                  synchronousInputId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Inputs[Entrada de Coluna Derivada]">
+                  synchronousInputId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Inputs[Entrada de Coluna Derivada]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Erro de Coluna Derivada].Columns[ErrorCode]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Erro de Coluna Derivada].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Erro de Coluna Derivada].Columns[ErrorCode]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Erro de Coluna Derivada].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Erro de Coluna Derivada].Columns[ErrorColumn]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Erro de Coluna Derivada].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Erro de Coluna Derivada].Columns[ErrorColumn]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Erro de Coluna Derivada].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -599,7 +599,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro"
+              refId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Coluna Derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos os Direitos Reservados; http://www.microsoft.com/sql/support;0"
               description="Cria novos valores de coluna aplicando expressões a colunas de entrada da transformação. Crie novas colunas ou substitua as existentes. Por exemplo, concatene os valores das colunas 'first name' e 'last name' para formar uma coluna 'full name'."
@@ -607,42 +607,42 @@
               usesDispositions="true">
               <inputs>
                 <input
-                  refId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Inputs[Entrada de Coluna Derivada]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Inputs[Entrada de Coluna Derivada]"
                   description="Entrada para a Transformação Coluna Derivada"
                   name="Entrada de Coluna Derivada">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Inputs[Entrada de Coluna Derivada].Columns[GUIA_ERRO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Inputs[Entrada de Coluna Derivada].Columns[GUIA_ERRO]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="1000"
                       cachedName="GUIA_ERRO"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[GUIA_ERRO]" />
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[GUIA_ERRO]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Inputs[Entrada de Coluna Derivada].Columns[DescricaoErro]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Inputs[Entrada de Coluna Derivada].Columns[DescricaoErro]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="4000"
                       cachedName="DescricaoErro"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\SC Obtem Descrição Erro.Outputs[Saída 0].Columns[DescricaoErro]" />
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\SC Obtem Descrição Erro.Outputs[Saída 0].Columns[DescricaoErro]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada]"
                   description="Saída Padrão da Transformação Coluna Derivada"
                   exclusionGroup="1"
                   name="Saída de Coluna Derivada"
-                  synchronousInputId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Inputs[Entrada de Coluna Derivada]">
+                  synchronousInputId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Inputs[Entrada de Coluna Derivada]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[cdRegraDados]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[cdRegraDados]"
                       dataType="i4"
                       errorOrTruncationOperation="Computação"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[cdRegraDados]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[cdRegraDados]"
                       name="cdRegraDados"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -650,21 +650,21 @@
                           containsID="true"
                           dataType="System.String"
                           description="Expressão de Coluna Derivada"
-                          name="Expression">1</property>
+                          name="Expression">2</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Expressão Amigável de Coluna Derivada"
                           expressionType="Notify"
-                          name="FriendlyExpression">1</property>
+                          name="FriendlyExpression">2</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[cdMapa]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[cdMapa]"
                       dataType="i4"
                       errorOrTruncationOperation="Computação"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[cdMapa]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[cdMapa]"
                       name="cdMapa"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -682,11 +682,11 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[dtErroCarga]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[dtErroCarga]"
                       dataType="dbTimeStamp"
                       errorOrTruncationOperation="Computação"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[dtErroCarga]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[dtErroCarga]"
                       name="dtErroCarga"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -704,13 +704,13 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[dsRegistroOrigem]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[dsRegistroOrigem]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Computação"
                       errorRowDisposition="FailComponent"
                       length="100"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[dsRegistroOrigem]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[dsRegistroOrigem]"
                       name="dsRegistroOrigem"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -718,7 +718,7 @@
                           containsID="true"
                           dataType="System.String"
                           description="Expressão de Coluna Derivada"
-                          name="Expression">(DT_STR,100,1252)#{Package\MP_TMP_BAAN_FAAP003\SC Obtem Descrição Erro.Outputs[Saída 0].Columns[DescricaoErro]}</property>
+                          name="Expression">(DT_STR,100,1252)#{Package\MP_TMP_BAAN_FAAR003\SC Obtem Descrição Erro.Outputs[Saída 0].Columns[DescricaoErro]}</property>
                         <property
                           containsID="true"
                           dataType="System.String"
@@ -728,13 +728,13 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[dsErroCarga]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[dsErroCarga]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Computação"
                       errorRowDisposition="FailComponent"
                       length="4000"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[dsErroCarga]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[dsErroCarga]"
                       name="dsErroCarga"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -742,7 +742,7 @@
                           containsID="true"
                           dataType="System.String"
                           description="Expressão de Coluna Derivada"
-                          name="Expression">(DT_STR,4000,1252)#{Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[GUIA_ERRO]}</property>
+                          name="Expression">(DT_STR,4000,1252)#{Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[GUIA_ERRO]}</property>
                         <property
                           containsID="true"
                           dataType="System.String"
@@ -752,11 +752,11 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[qtErros]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[qtErros]"
                       dataType="i4"
                       errorOrTruncationOperation="Computação"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[qtErros]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[qtErros]"
                       name="qtErros"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -777,23 +777,23 @@
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Erro de Coluna Derivada]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Erro de Coluna Derivada]"
                   description="Saída de Erro da Transformação Coluna Derivada"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Saída de Erro de Coluna Derivada"
-                  synchronousInputId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Inputs[Entrada de Coluna Derivada]">
+                  synchronousInputId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Inputs[Entrada de Coluna Derivada]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Erro de Coluna Derivada].Columns[ErrorCode]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Erro de Coluna Derivada].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Erro de Coluna Derivada].Columns[ErrorCode]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Erro de Coluna Derivada].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Erro de Coluna Derivada].Columns[ErrorColumn]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Erro de Coluna Derivada].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Erro de Coluna Derivada].Columns[ErrorColumn]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Erro de Coluna Derivada].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -802,7 +802,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros"
+              refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="Destino OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos os Direitos Reservados; http://www.microsoft.com/sql/support;4"
               description="Destino OLE DB"
@@ -859,7 +859,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Connections[OleDbConnection]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Connections[OleDbConnection]"
                   connectionManagerID="{89D526A1-B286-41B0-9809-ACF6AFDA0826}:external"
                   connectionManagerRefId="Project.ConnectionManagers[ds191009t.dw_dixie.dw_la]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
@@ -867,85 +867,85 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB]"
                   errorOrTruncationOperation="Inserir"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="Entrada de Destino OLE DB">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].Columns[cdRegraDados]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].Columns[cdRegraDados]"
                       cachedDataType="i4"
                       cachedName="cdRegraDados"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[cdRegraDados]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[cdRegraDados]" />
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[cdRegraDados]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[cdRegraDados]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].Columns[cdMapa]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].Columns[cdMapa]"
                       cachedDataType="i4"
                       cachedName="cdMapa"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[cdMapa]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[cdMapa]" />
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[cdMapa]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[cdMapa]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].Columns[dsRegistroOrigem]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].Columns[dsRegistroOrigem]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="100"
                       cachedName="dsRegistroOrigem"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[dsRegistroOrigem]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[dsRegistroOrigem]" />
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[dsRegistroOrigem]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[dsRegistroOrigem]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].Columns[dsErroCarga]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].Columns[dsErroCarga]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="4000"
                       cachedName="dsErroCarga"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[dsErroCarga]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[dsErroCarga]" />
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[dsErroCarga]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[dsErroCarga]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].Columns[qtErros]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].Columns[qtErros]"
                       cachedDataType="i4"
                       cachedName="qtErros"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[qtErros]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[qtErros]" />
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[qtErros]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada].Columns[qtErros]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].Columns[SKY_AUDITKEY]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].Columns[SKY_AUDITKEY]"
                       cachedDataType="i4"
                       cachedName="SKY_AUDITKEY"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[skAudit]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[SKY_AUDITKEY]" />
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[skAudit]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[SKY_AUDITKEY]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[skAudit]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[skAudit]"
                       dataType="i4"
                       name="skAudit" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[cdRegraDados]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[cdRegraDados]"
                       dataType="i4"
                       name="cdRegraDados" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[cdMapa]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[cdMapa]"
                       dataType="i4"
                       name="cdMapa" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[dthrErroCarga]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[dthrErroCarga]"
                       dataType="dbTimeStamp"
                       name="dthrErroCarga" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[dsRegistroOrigem]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[dsRegistroOrigem]"
                       codePage="1252"
                       dataType="str"
                       length="100"
                       name="dsRegistroOrigem" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[dsErroCarga]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[dsErroCarga]"
                       codePage="1252"
                       dataType="str"
                       length="4000"
                       name="dsErroCarga" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[qtErros]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB].ExternalColumns[qtErros]"
                       dataType="i4"
                       name="qtErros" />
                   </externalMetadataColumns>
@@ -953,22 +953,22 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Outputs[Saída de Erro de Destino OLE DB]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Outputs[Saída de Erro de Destino OLE DB]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Saída de Erro de Destino OLE DB"
-                  synchronousInputId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB]">
+                  synchronousInputId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -977,7 +977,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row"
+              refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="Destino OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos os Direitos Reservados; http://www.microsoft.com/sql/support;4"
               description="Destino OLE DB"
@@ -992,7 +992,7 @@
                 <property
                   dataType="System.String"
                   description="Especifica o nome do objeto de banco de dados usado para abrir um conjunto de linhas."
-                  name="OpenRowset">[dbo].[TMP_BAAN_FAAP003]</property>
+                  name="OpenRowset">[dbo].[TMP_BAAN_FAAR003]</property>
                 <property
                   dataType="System.String"
                   description="Especifica a variável que contém o nome do objeto de banco de dados usado para abrir um conjunto de linhas."
@@ -1034,7 +1034,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Connections[OleDbConnection]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Connections[OleDbConnection]"
                   connectionManagerID="{89D526A1-B286-41B0-9809-ACF6AFDA0826}:external"
                   connectionManagerRefId="Project.ConnectionManagers[ds191009t.dw_dixie.dw_la]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
@@ -1042,95 +1042,95 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB]"
                   errorOrTruncationOperation="Inserir"
                   errorRowDisposition="RedirectRow"
                   hasSideEffects="true"
                   name="Entrada de Destino OLE DB">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].Columns[DTA_CARGA]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].Columns[DTA_CARGA]"
                       cachedDataType="dbTimeStamp"
                       cachedName="DTA_CARGA"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[DTA_CARGA]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DTA_CARGA]" />
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[DTA_CARGA]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DTA_CARGA]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].Columns[SKY_AUDITKEY]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].Columns[SKY_AUDITKEY]"
                       cachedDataType="i4"
                       cachedName="SKY_AUDITKEY"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[SKY_AUDITKEY]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[SKY_AUDITKEY]" />
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[SKY_AUDITKEY]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[SKY_AUDITKEY]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].Columns[COD_CIA]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].Columns[COD_CIA]"
                       cachedDataType="i4"
                       cachedName="COD_CIA"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_CIA]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[COD_CIA]" />
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_CIA]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[COD_CIA]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].Columns[NUM_DOCTO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].Columns[NUM_DOCTO]"
                       cachedDataType="i4"
                       cachedName="NUM_DOCTO"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[NUM_DOCTO]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[NUM_DOCTO]" />
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[NUM_DOCTO]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[NUM_DOCTO]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].Columns[DES_ERRO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].Columns[DES_ERRO]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="150"
                       cachedName="DES_ERRO"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[DES_ERRO]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DES_ERRO]" />
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[DES_ERRO]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DES_ERRO]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].Columns[COD_ERRO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].Columns[COD_ERRO]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="10"
                       cachedName="COD_ERRO"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_ERRO]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[COD_ERRO]" />
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_ERRO]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[COD_ERRO]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].Columns[DTA_PROC]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].Columns[DTA_PROC]"
                       cachedDataType="dbDate"
                       cachedName="DTA_PROC"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[DTA_PROC]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DTA_PROC]" />
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[DTA_PROC]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DTA_PROC]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[IDE_TEMP]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[IDE_TEMP]"
                       dataType="i4"
                       name="IDE_TEMP" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[SKY_AUDITKEY]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[SKY_AUDITKEY]"
                       dataType="i4"
                       name="SKY_AUDITKEY" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[DTA_CARGA]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[DTA_CARGA]"
                       dataType="dbTimeStamp"
                       name="DTA_CARGA" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_CIA]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_CIA]"
                       dataType="i4"
                       name="COD_CIA" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[NUM_DOCTO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[NUM_DOCTO]"
                       dataType="i4"
                       name="NUM_DOCTO" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_ERRO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_ERRO]"
                       codePage="1252"
                       dataType="str"
                       length="10"
                       name="COD_ERRO" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[DES_ERRO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[DES_ERRO]"
                       codePage="1252"
                       dataType="str"
                       length="150"
                       name="DES_ERRO" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[DTA_PROC]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[DTA_PROC]"
                       dataType="dbDate"
                       name="DTA_PROC" />
                   </externalMetadataColumns>
@@ -1138,22 +1138,22 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Outputs[Saída de Erro de Destino OLE DB]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Outputs[Saída de Erro de Destino OLE DB]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Saída de Erro de Destino OLE DB"
-                  synchronousInputId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB]">
+                  synchronousInputId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1162,11 +1162,11 @@
               </outputs>
             </component>
             <component
-              refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar"
+              refId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="Destino OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos os Direitos Reservados; http://www.microsoft.com/sql/support;4"
               description="Destino OLE DB"
-              name="ODD TMP CPagar"
+              name="ODD TMP CReceber"
               usesDispositions="true"
               version="4">
               <properties>
@@ -1177,7 +1177,7 @@
                 <property
                   dataType="System.String"
                   description="Especifica o nome do objeto de banco de dados usado para abrir um conjunto de linhas."
-                  name="OpenRowset">[dbo].[TMP_BAAN_FAAP003]</property>
+                  name="OpenRowset">[dbo].[TMP_BAAN_FAAR003]</property>
                 <property
                   dataType="System.String"
                   description="Especifica a variável que contém o nome do objeto de banco de dados usado para abrir um conjunto de linhas."
@@ -1219,7 +1219,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Connections[OleDbConnection]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Connections[OleDbConnection]"
                   connectionManagerID="{89D526A1-B286-41B0-9809-ACF6AFDA0826}:external"
                   connectionManagerRefId="Project.ConnectionManagers[ds191009t.dw_dixie.dw_la]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
@@ -1227,95 +1227,95 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB]"
                   errorOrTruncationOperation="Inserir"
                   errorRowDisposition="RedirectRow"
                   hasSideEffects="true"
                   name="Entrada de Destino OLE DB">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].Columns[DTA_CARGA]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].Columns[DTA_CARGA]"
                       cachedDataType="dbTimeStamp"
                       cachedName="DTA_CARGA"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].ExternalColumns[DTA_CARGA]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DTA_CARGA]" />
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].ExternalColumns[DTA_CARGA]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DTA_CARGA]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].Columns[SKY_AUDITKEY]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].Columns[SKY_AUDITKEY]"
                       cachedDataType="i4"
                       cachedName="SKY_AUDITKEY"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].ExternalColumns[SKY_AUDITKEY]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[SKY_AUDITKEY]" />
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].ExternalColumns[SKY_AUDITKEY]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[SKY_AUDITKEY]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].Columns[COD_CIA]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].Columns[COD_CIA]"
                       cachedDataType="i4"
                       cachedName="COD_CIA"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_CIA]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[COD_CIA]" />
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_CIA]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[COD_CIA]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].Columns[NUM_DOCTO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].Columns[NUM_DOCTO]"
                       cachedDataType="i4"
                       cachedName="NUM_DOCTO"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].ExternalColumns[NUM_DOCTO]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[NUM_DOCTO]" />
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].ExternalColumns[NUM_DOCTO]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[NUM_DOCTO]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].Columns[DES_ERRO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].Columns[DES_ERRO]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="150"
                       cachedName="DES_ERRO"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].ExternalColumns[DES_ERRO]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DES_ERRO]" />
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].ExternalColumns[DES_ERRO]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DES_ERRO]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].Columns[COD_ERRO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].Columns[COD_ERRO]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="10"
                       cachedName="COD_ERRO"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_ERRO]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[COD_ERRO]" />
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_ERRO]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[COD_ERRO]" />
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].Columns[DTA_PROC]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].Columns[DTA_PROC]"
                       cachedDataType="dbDate"
                       cachedName="DTA_PROC"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].ExternalColumns[DTA_PROC]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DTA_PROC]" />
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].ExternalColumns[DTA_PROC]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DTA_PROC]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].ExternalColumns[IDE_TEMP]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].ExternalColumns[IDE_TEMP]"
                       dataType="i4"
                       name="IDE_TEMP" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].ExternalColumns[SKY_AUDITKEY]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].ExternalColumns[SKY_AUDITKEY]"
                       dataType="i4"
                       name="SKY_AUDITKEY" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].ExternalColumns[DTA_CARGA]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].ExternalColumns[DTA_CARGA]"
                       dataType="dbTimeStamp"
                       name="DTA_CARGA" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_CIA]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_CIA]"
                       dataType="i4"
                       name="COD_CIA" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].ExternalColumns[NUM_DOCTO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].ExternalColumns[NUM_DOCTO]"
                       dataType="i4"
                       name="NUM_DOCTO" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_ERRO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_ERRO]"
                       codePage="1252"
                       dataType="str"
                       length="10"
                       name="COD_ERRO" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].ExternalColumns[DES_ERRO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].ExternalColumns[DES_ERRO]"
                       codePage="1252"
                       dataType="str"
                       length="150"
                       name="DES_ERRO" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].ExternalColumns[DTA_PROC]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB].ExternalColumns[DTA_PROC]"
                       dataType="dbDate"
                       name="DTA_PROC" />
                   </externalMetadataColumns>
@@ -1323,22 +1323,22 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Outputs[Saída de Erro de Destino OLE DB]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Outputs[Saída de Erro de Destino OLE DB]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Saída de Erro de Destino OLE DB"
-                  synchronousInputId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB]">
+                  synchronousInputId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1347,7 +1347,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\MP_TMP_BAAN_FAAP003\RC Erro"
+              refId="Package\MP_TMP_BAAN_FAAR003\RC Erro"
               componentClassID="Microsoft.RowCount"
               contactInfo="Contagem de Linhas;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos os Direitos Reservados; http://www.microsoft.com/sql/support;0"
               description="Conta as linhas à medida que elas passam por um fluxo de dados. Por exemplo, use o número de linhas processado para determinar se operações de limpeza devem ser executadas ou não, ou atualize o texto em uma mensagem de email para comunicar o status de processamento."
@@ -1360,7 +1360,7 @@
               </properties>
               <inputs>
                 <input
-                  refId="Package\MP_TMP_BAAN_FAAP003\RC Erro.Inputs[Contagem de Linhas Entrada 1]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\RC Erro.Inputs[Contagem de Linhas Entrada 1]"
                   hasSideEffects="true"
                   name="Contagem de Linhas Entrada 1">
                   <externalMetadataColumns />
@@ -1368,15 +1368,15 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\MP_TMP_BAAN_FAAP003\RC Erro.Outputs[Contagem de Linhas Saída 1]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\RC Erro.Outputs[Contagem de Linhas Saída 1]"
                   name="Contagem de Linhas Saída 1"
-                  synchronousInputId="Package\MP_TMP_BAAN_FAAP003\RC Erro.Inputs[Contagem de Linhas Entrada 1]">
+                  synchronousInputId="Package\MP_TMP_BAAN_FAAR003\RC Erro.Inputs[Contagem de Linhas Entrada 1]">
                   <externalMetadataColumns />
                 </output>
               </outputs>
             </component>
             <component
-              refId="Package\MP_TMP_BAAN_FAAP003\SC Obtem Descrição Erro"
+              refId="Package\MP_TMP_BAAN_FAAR003\SC Obtem Descrição Erro"
               componentClassID="Microsoft.ManagedComponentHost"
               contactInfo="Inclui e executa código de script personalizado. Por exemplo, aplique uma regra de negócio que limite um intervalo de valores válidos em uma coluna &quot;de entrada&quot; ou adicione valores em duas colunas e calcule a média da soma.;Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; Todos os Direitos Reservados; http://www.microsoft.com/sql/support;12"
               description="Inclui e executa código de script personalizado. Por exemplo, aplique uma regra de negócio que limite um intervalo de valores válidos em uma coluna &quot;de entrada&quot; ou adicione valores em duas colunas e calcule a média da soma."
@@ -2244,15 +2244,15 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               </properties>
               <inputs>
                 <input
-                  refId="Package\MP_TMP_BAAN_FAAP003\SC Obtem Descrição Erro.Inputs[Entrada 0]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\SC Obtem Descrição Erro.Inputs[Entrada 0]"
                   hasSideEffects="true"
                   name="Entrada 0">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\SC Obtem Descrição Erro.Inputs[Entrada 0].Columns[ODD Insere Row By Row.ErrorCode]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\SC Obtem Descrição Erro.Inputs[Entrada 0].Columns[ODD Insere Row By Row.ErrorCode]"
                       cachedDataType="i4"
                       cachedName="ErrorCode"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
                       name="ODD Insere Row By Row.ErrorCode" />
                   </inputColumns>
                   <externalMetadataColumns />
@@ -2260,16 +2260,16 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\MP_TMP_BAAN_FAAP003\SC Obtem Descrição Erro.Outputs[Saída 0]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\SC Obtem Descrição Erro.Outputs[Saída 0]"
                   name="Saída 0"
-                  synchronousInputId="Package\MP_TMP_BAAN_FAAP003\SC Obtem Descrição Erro.Inputs[Entrada 0]">
+                  synchronousInputId="Package\MP_TMP_BAAN_FAAR003\SC Obtem Descrição Erro.Inputs[Entrada 0]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\SC Obtem Descrição Erro.Outputs[Saída 0].Columns[DescricaoErro]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\SC Obtem Descrição Erro.Outputs[Saída 0].Columns[DescricaoErro]"
                       codePage="1252"
                       dataType="str"
                       length="4000"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\SC Obtem Descrição Erro.Outputs[Saída 0].Columns[DescricaoErro]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\SC Obtem Descrição Erro.Outputs[Saída 0].Columns[DescricaoErro]"
                       name="DescricaoErro" />
                   </outputColumns>
                   <externalMetadataColumns />
@@ -2277,7 +2277,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               </outputs>
             </component>
             <component
-              refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100"
+              refId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100"
               componentClassID="Microsoft.OLEDBSource"
               contactInfo="Origem OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos os Direitos Reservados; http://www.microsoft.com/sql/support;7"
               description="Origem OLE DB"
@@ -2301,8 +2301,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                   dataType="System.String"
                   description="O comando SQL a ser executado."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">DECLARE	@minRow INT,
-		@maxRow INT
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">DECLARE	@minRow	INT,
+		@maxRow	INT
 
 DECLARE @temp TABLE (
 	ID			INT IDENTITY,
@@ -2314,14 +2314,14 @@ DECLARE @temp TABLE (
 
 INSERT INTO @temp
 SELECT
-	aap.t_motv_c,
-	aap.t_ninv_c,
-	aap.t_ncmp_c,
-	CONVERT(DATE, aap.t_dtpr_c) AS "t_dtpr_c"
+	arr.t_motv_c,
+	arr.t_ninv_c,
+	arr.t_ncmp_c,
+	CONVERT(DATE, arr.t_dtpr_c) AS "t_dtpr_c"
 FROM
-	baandb..ttfaap003100 aap (NOLOCK)
+	baandb..ttfaar003100 arr (NOLOCK)
 WHERE
-	aap.t_motv_c&lt;&gt;RTRIM(LTRIM(''))
+	arr.t_motv_c&lt;&gt;RTRIM(LTRIM(''))
 
 SELECT @minRow=MIN(ID), @maxRow=MAX(ID) FROM @temp
 
@@ -2343,22 +2343,26 @@ BEGIN
 		ID=@minRow
 
 	SET @SQLQUERY=(
-					SELECT ERRIDS
-					FROM @temp
-					WHERE ID = @minRow
+					SELECT
+						ERRIDS
+					FROM
+						@temp
+					WHERE
+						ID=@minRow
 				  )
+
 	SET @DELIMITOR='|'
 
 	DECLARE @RESULT TABLE (
-		ERRID		VARCHAR(MAX),
-		DOCNUM		INT,
-		CIANUM		INT,
-		DTA_PROC	DATE	)
+			ERRID		VARCHAR(MAX),
+			DOCNUM		INT,
+			CIANUM		INT,
+			DTA_PROC	DATE )
 
 	BEGIN
 		DECLARE @DELIMITORPOSITION INT=CHARINDEX(@DELIMITOR, @SQLQUERY),
-				@VALUE VARCHAR(MAX),
-				@STARTPOSITION INT=1
+				@VALUE			VARCHAR(MAX),
+				@STARTPOSITION	INT=1
 
 		IF @DELIMITORPOSITION=0
 		BEGIN
@@ -2367,7 +2371,7 @@ BEGIN
 			RETURN
 		END
 
-		SET @SQLQUERY = @SQLQUERY + @DELIMITOR
+		SET @SQLQUERY=@SQLQUERY + @DELIMITOR
 
 		WHILE @DELIMITORPOSITION &gt; 0
 		BEGIN
@@ -2418,7 +2422,7 @@ FROM
               </properties>
               <connections>
                 <connection
-                  refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Connections[OleDbConnection]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Connections[OleDbConnection]"
                   connectionManagerID="{26F331B8-A6D4-4D2F-96D7-7BEB12CB87C2}:external"
                   connectionManagerRefId="Project.ConnectionManagers[ds191050T_baanarg.baandb.dw_la]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
@@ -2426,128 +2430,128 @@ FROM
               </connections>
               <outputs>
                 <output
-                  refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB]"
                   name="Saída de Origem OLE DB">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_COD_CIA]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_COD_CIA]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversão"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[CIANUM]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_COD_CIA]"
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[CIANUM]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_COD_CIA]"
                       name="_COD_CIA"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_COD_ERRO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_COD_ERRO]"
                       codePage="1252"
                       dataType="text"
                       errorOrTruncationOperation="Conversão"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[ERRID]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_COD_ERRO]"
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[ERRID]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_COD_ERRO]"
                       name="_COD_ERRO"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_NUM_DOCTO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_NUM_DOCTO]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversão"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[DOCNUM]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_NUM_DOCTO]"
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[DOCNUM]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_NUM_DOCTO]"
                       name="_NUM_DOCTO"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_DES_ERRO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_DES_ERRO]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversão"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[t_desc_c]"
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[t_desc_c]"
                       length="255"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_DES_ERRO]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_DES_ERRO]"
                       name="_DES_ERRO"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_DTA_PROC]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_DTA_PROC]"
                       dataType="dbDate"
                       errorOrTruncationOperation="Conversão"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[DTA_PROC]"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_DTA_PROC]"
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[DTA_PROC]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_DTA_PROC]"
                       name="_DTA_PROC"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[CIANUM]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[CIANUM]"
                       dataType="i4"
                       name="CIANUM" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[ERRID]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[ERRID]"
                       codePage="1252"
                       dataType="text"
                       name="ERRID" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[DOCNUM]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[DOCNUM]"
                       dataType="i4"
                       name="DOCNUM" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[t_desc_c]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[t_desc_c]"
                       codePage="1252"
                       dataType="str"
                       length="255"
                       name="t_desc_c" />
                     <externalMetadataColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[DTA_PROC]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[DTA_PROC]"
                       dataType="dbDate"
                       name="DTA_PROC" />
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB]"
                   isErrorOut="true"
                   name="Saída de Erro de Origem OLE DB">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[CIANUM]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[CIANUM]"
                       dataType="i4"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[CIANUM]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[CIANUM]"
                       name="CIANUM" />
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[ERRID]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[ERRID]"
                       codePage="1252"
                       dataType="text"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[ERRID]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[ERRID]"
                       name="ERRID" />
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[DOCNUM]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[DOCNUM]"
                       dataType="i4"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[DOCNUM]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[DOCNUM]"
                       name="DOCNUM" />
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[DTA_PROC]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[DTA_PROC]"
                       dataType="dbDate"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[DTA_PROC]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[DTA_PROC]"
                       name="DTA_PROC" />
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[t_desc_c]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[t_desc_c]"
                       codePage="1252"
                       dataType="str"
                       length="255"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[t_desc_c]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[t_desc_c]"
                       name="t_desc_c" />
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[ErrorCode]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[ErrorCode]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[ErrorColumn]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[ErrorColumn]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -2556,7 +2560,7 @@ FROM
               </outputs>
             </component>
             <component
-              refId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo"
+              refId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo"
               componentClassID="Microsoft.UnionAll"
               contactInfo="Unir Tudo;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos os Direitos Reservados; http://www.microsoft.com/sql/support;1"
               description="Combina linhas de vários fluxos de dados sem classificação. Por exemplo, adicione novamente as linhas a um fluxo de dados após a correção de erros. Se a classificação for importante, é recomendável usar a transformação Mesclagem."
@@ -2564,82 +2568,82 @@ FROM
               version="1">
               <inputs>
                 <input
-                  refId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Inputs[Unir Tudo Entrada 1]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Inputs[Unir Tudo Entrada 1]"
                   name="Unir Tudo Entrada 1">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Inputs[Unir Tudo Entrada 1].Columns[_COD_CIA]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Inputs[Unir Tudo Entrada 1].Columns[_COD_CIA]"
                       cachedDataType="i4"
                       cachedName="_COD_CIA"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_COD_CIA]">
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_COD_CIA]">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Identificação de linhagem de coluna de saída"
-                          name="OutputColumnLineageID">#{Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_CIA]}</property>
+                          name="OutputColumnLineageID">#{Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_CIA]}</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Inputs[Unir Tudo Entrada 1].Columns[_COD_ERRO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Inputs[Unir Tudo Entrada 1].Columns[_COD_ERRO]"
                       cachedCodepage="1252"
                       cachedDataType="text"
                       cachedName="_COD_ERRO"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_COD_ERRO]">
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_COD_ERRO]">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Identificação de linhagem de coluna de saída"
-                          name="OutputColumnLineageID">#{Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_ERRO]}</property>
+                          name="OutputColumnLineageID">#{Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_ERRO]}</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Inputs[Unir Tudo Entrada 1].Columns[_NUM_DOCTO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Inputs[Unir Tudo Entrada 1].Columns[_NUM_DOCTO]"
                       cachedDataType="i4"
                       cachedName="_NUM_DOCTO"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_NUM_DOCTO]">
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_NUM_DOCTO]">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Identificação de linhagem de coluna de saída"
-                          name="OutputColumnLineageID">#{Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_NUM_DOCTO]}</property>
+                          name="OutputColumnLineageID">#{Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_NUM_DOCTO]}</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Inputs[Unir Tudo Entrada 1].Columns[_DES_ERRO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Inputs[Unir Tudo Entrada 1].Columns[_DES_ERRO]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="255"
                       cachedName="_DES_ERRO"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_DES_ERRO]">
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_DES_ERRO]">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Identificação de linhagem de coluna de saída"
-                          name="OutputColumnLineageID">#{Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DES_ERRO]}</property>
+                          name="OutputColumnLineageID">#{Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DES_ERRO]}</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Inputs[Unir Tudo Entrada 1].Columns[_DTA_PROC]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Inputs[Unir Tudo Entrada 1].Columns[_DTA_PROC]"
                       cachedDataType="dbDate"
                       cachedName="_DTA_PROC"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_DTA_PROC]">
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_DTA_PROC]">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Identificação de linhagem de coluna de saída"
-                          name="OutputColumnLineageID">#{Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DTA_PROC]}</property>
+                          name="OutputColumnLineageID">#{Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DTA_PROC]}</property>
                       </properties>
                     </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
                 <input
-                  refId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Inputs[Entrada Unir Tudo 1]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Inputs[Entrada Unir Tudo 1]"
                   dangling="true"
                   hasSideEffects="true"
                   name="Entrada Unir Tudo 1">
@@ -2648,36 +2652,36 @@ FROM
               </inputs>
               <outputs>
                 <output
-                  refId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1]"
+                  refId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1]"
                   name="Unir Tudo Saída 1">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_CIA]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_CIA]"
                       dataType="i4"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_CIA]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_CIA]"
                       name="_COD_CIA" />
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_ERRO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_ERRO]"
                       codePage="1252"
                       dataType="text"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_ERRO]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_ERRO]"
                       name="_COD_ERRO" />
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_NUM_DOCTO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_NUM_DOCTO]"
                       dataType="i4"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_NUM_DOCTO]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_NUM_DOCTO]"
                       name="_NUM_DOCTO" />
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DES_ERRO]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DES_ERRO]"
                       codePage="1252"
                       dataType="str"
                       length="255"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DES_ERRO]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DES_ERRO]"
                       name="_DES_ERRO" />
                     <outputColumn
-                      refId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DTA_PROC]"
+                      refId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DTA_PROC]"
                       dataType="dbDate"
-                      lineageId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DTA_PROC]"
+                      lineageId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DTA_PROC]"
                       name="_DTA_PROC" />
                   </outputColumns>
                   <externalMetadataColumns />
@@ -2687,45 +2691,45 @@ FROM
           </components>
           <paths>
             <path
-              refId="Package\MP_TMP_BAAN_FAAP003.Paths[Contagem de Linhas Saída 1]"
-              endId="Package\MP_TMP_BAAN_FAAP003\SC Obtem Descrição Erro.Inputs[Entrada 0]"
+              refId="Package\MP_TMP_BAAN_FAAR003.Paths[Contagem de Linhas Saída 1]"
+              endId="Package\MP_TMP_BAAN_FAAR003\SC Obtem Descrição Erro.Inputs[Entrada 0]"
               name="Contagem de Linhas Saída 1"
-              startId="Package\MP_TMP_BAAN_FAAP003\RC Erro.Outputs[Contagem de Linhas Saída 1]" />
+              startId="Package\MP_TMP_BAAN_FAAR003\RC Erro.Outputs[Contagem de Linhas Saída 1]" />
             <path
-              refId="Package\MP_TMP_BAAN_FAAP003.Paths[Saída 0]"
-              endId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Inputs[Entrada de Coluna Derivada]"
+              refId="Package\MP_TMP_BAAN_FAAR003.Paths[Saída 0]"
+              endId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Inputs[Entrada de Coluna Derivada]"
               name="Saída 0"
-              startId="Package\MP_TMP_BAAN_FAAP003\SC Obtem Descrição Erro.Outputs[Saída 0]" />
+              startId="Package\MP_TMP_BAAN_FAAR003\SC Obtem Descrição Erro.Outputs[Saída 0]" />
             <path
-              refId="Package\MP_TMP_BAAN_FAAP003.Paths[Saída de Coluna Derivada]"
-              endId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB]"
+              refId="Package\MP_TMP_BAAN_FAAR003.Paths[Saída de Coluna Derivada]"
+              endId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Inputs[Entrada de Destino OLE DB]"
               name="Saída de Coluna Derivada"
-              startId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada]" />
+              startId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Outputs[Saída de Coluna Derivada]" />
             <path
-              refId="Package\MP_TMP_BAAN_FAAP003.Paths[Saída de Coluna Derivada1]"
-              endId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB]"
+              refId="Package\MP_TMP_BAAN_FAAR003.Paths[Saída de Coluna Derivada1]"
+              endId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros.Inputs[Entrada de Destino OLE DB]"
               name="Saída de Coluna Derivada"
-              startId="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada]" />
+              startId="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro.Outputs[Saída de Coluna Derivada]" />
             <path
-              refId="Package\MP_TMP_BAAN_FAAP003.Paths[Saída de Erro de Destino OLE DB]"
-              endId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB]"
+              refId="Package\MP_TMP_BAAN_FAAR003.Paths[Saída de Erro de Destino OLE DB]"
+              endId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB]"
               name="Saída de Erro de Destino OLE DB"
-              startId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Outputs[Saída de Erro de Destino OLE DB]" />
+              startId="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber.Outputs[Saída de Erro de Destino OLE DB]" />
             <path
-              refId="Package\MP_TMP_BAAN_FAAP003.Paths[Saída de Erro de Destino OLE DB1]"
-              endId="Package\MP_TMP_BAAN_FAAP003\RC Erro.Inputs[Contagem de Linhas Entrada 1]"
+              refId="Package\MP_TMP_BAAN_FAAR003.Paths[Saída de Erro de Destino OLE DB1]"
+              endId="Package\MP_TMP_BAAN_FAAR003\RC Erro.Inputs[Contagem de Linhas Entrada 1]"
               name="Saída de Erro de Destino OLE DB"
-              startId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Outputs[Saída de Erro de Destino OLE DB]" />
+              startId="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row.Outputs[Saída de Erro de Destino OLE DB]" />
             <path
-              refId="Package\MP_TMP_BAAN_FAAP003.Paths[Saída de Origem OLE DB]"
-              endId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Inputs[Unir Tudo Entrada 1]"
+              refId="Package\MP_TMP_BAAN_FAAR003.Paths[Saída de Origem OLE DB]"
+              endId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Inputs[Unir Tudo Entrada 1]"
               name="Saída de Origem OLE DB"
-              startId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB]" />
+              startId="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB]" />
             <path
-              refId="Package\MP_TMP_BAAN_FAAP003.Paths[Unir Tudo Saída 1]"
-              endId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Inputs[Entrada de Coluna Derivada]"
+              refId="Package\MP_TMP_BAAN_FAAR003.Paths[Unir Tudo Saída 1]"
+              endId="Package\MP_TMP_BAAN_FAAR003\CD TMP.Inputs[Entrada de Coluna Derivada]"
               name="Unir Tudo Saída 1"
-              startId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1]" />
+              startId="Package\MP_TMP_BAAN_FAAR003\Unir Tudo.Outputs[Unir Tudo Saída 1]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -2735,7 +2739,7 @@ FROM
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Restrição]"
       DTS:CreationName=""
-      DTS:DTSID="{6C645E70-4E27-433C-A9EC-EC6C700B1C55}"
+      DTS:DTSID="{7F7B19BF-C71C-42A6-A4F8-3EBAF459EE02}"
       DTS:From="Package\EST Busca Parametro"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Restrição"
@@ -2743,7 +2747,7 @@ FROM
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Restrição 1]"
       DTS:CreationName=""
-      DTS:DTSID="{42486FEE-AD10-46B8-8ECC-AB8EE353D7E5}"
+      DTS:DTSID="{916C7ED4-4939-4AA5-AF91-25C9A8EEC5D6}"
       DTS:From="Package\EST Apaga Ultimos Erros Carga"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Restrição 1"
@@ -2751,7 +2755,7 @@ FROM
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Restrição 2]"
       DTS:CreationName=""
-      DTS:DTSID="{8920A70F-BBCA-46EC-90C5-E29B2933E0FB}"
+      DTS:DTSID="{9EECC39A-65C7-415F-BD3E-B487514EA4A9}"
       DTS:From="Package\EST Insere DIM_Auditoria"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Restrição 2"
@@ -2759,23 +2763,23 @@ FROM
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Restrição 3]"
       DTS:CreationName=""
-      DTS:DTSID="{F6ABF623-2AF1-4EA3-A9DC-0DA94D8FB190}"
+      DTS:DTSID="{6CF1C4A6-BE75-4B48-B572-1438B6ECEB61}"
       DTS:From="Package\EST Trunca TMP"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Restrição 3"
-      DTS:To="Package\MP_TMP_BAAN_FAAP003" />
+      DTS:To="Package\MP_TMP_BAAN_FAAR003" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Restrição 4]"
       DTS:CreationName=""
-      DTS:DTSID="{1960AF09-DA32-4360-93E3-B8D0C6087C31}"
-      DTS:From="Package\MP_TMP_BAAN_FAAP003"
+      DTS:DTSID="{E60C52C1-F1A3-4F45-A4BA-244B6949C133}"
+      DTS:From="Package\MP_TMP_BAAN_FAAR003"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Restrição 4"
       DTS:To="Package\EST Atualiza +1 em Data" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Restrição 5]"
       DTS:CreationName=""
-      DTS:DTSID="{DBEBD59A-6AAF-429C-9B04-A9F0E590219F}"
+      DTS:DTSID="{898A7138-3B38-4D89-BAD2-6791DB89266C}"
       DTS:From="Package\EST Atualiza +1 em Data"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Restrição 5"
@@ -2783,7 +2787,7 @@ FROM
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Restrição 6]"
       DTS:CreationName=""
-      DTS:DTSID="{7C3B45FD-8E82-4608-AE5B-4FC247FE9C85}"
+      DTS:DTSID="{D7D84557-2EE3-409C-88B5-A7F5BBB6988E}"
       DTS:From="Package\EST Atualiza Dim Auditoria"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Restrição 6"
@@ -2831,7 +2835,7 @@ FROM
           TopLeft="420,198" />
         <NodeLayout
           Size="193,42"
-          Id="Package\MP_TMP_BAAN_FAAP003"
+          Id="Package\MP_TMP_BAAN_FAAR003"
           TopLeft="414,292" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restrição]"
@@ -2991,48 +2995,48 @@ FROM
     </LayoutInfo>
   </Package>
   <TaskHost
-    design-time-name="Package\MP_TMP_BAAN_FAAP003">
+    design-time-name="Package\MP_TMP_BAAN_FAAR003">
     <LayoutInfo>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="183,42"
-          Id="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro"
+          Id="Package\MP_TMP_BAAN_FAAR003\DC Criar Layout Erro"
           TopLeft="326,488" />
         <NodeLayout
           Size="208,42"
-          Id="Package\MP_TMP_BAAN_FAAP003\SC Obtem Descrição Erro"
+          Id="Package\MP_TMP_BAAN_FAAR003\SC Obtem Descrição Erro"
           TopLeft="639,490" />
         <NodeLayout
           Size="121,42"
-          Id="Package\MP_TMP_BAAN_FAAP003\RC Erro"
+          Id="Package\MP_TMP_BAAN_FAAR003\RC Erro"
           TopLeft="677,404" />
         <NodeLayout
           Size="188,42"
-          Id="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros"
+          Id="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros"
           TopLeft="330,586" />
         <NodeLayout
           Size="129,42"
-          Id="Package\MP_TMP_BAAN_FAAP003\Unir Tudo"
+          Id="Package\MP_TMP_BAAN_FAAR003\Unir Tudo"
           TopLeft="339,144" />
         <NodeLayout
           Size="205,42"
-          Id="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row"
+          Id="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row"
           TopLeft="635,316" />
         <NodeLayout
           Size="123,42"
-          Id="Package\MP_TMP_BAAN_FAAP003\CD TMP"
+          Id="Package\MP_TMP_BAAN_FAAR003\CD TMP"
           TopLeft="344,226" />
         <NodeLayout
           Size="171,42"
-          Id="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100"
+          Id="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100"
           TopLeft="166,34" />
         <NodeLayout
-          Size="172,42"
-          Id="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar"
-          TopLeft="323,311" />
+          Size="184,42"
+          Id="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber"
+          TopLeft="313,311" />
         <EdgeLayout
-          Id="Package\MP_TMP_BAAN_FAAP003.Paths[Unir Tudo Saída 1]"
+          Id="Package\MP_TMP_BAAN_FAAR003.Paths[Unir Tudo Saída 1]"
           TopLeft="404.5,186">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -3054,7 +3058,7 @@ FROM
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\MP_TMP_BAAN_FAAP003.Paths[Saída de Origem OLE DB]"
+          Id="Package\MP_TMP_BAAN_FAAR003.Paths[Saída de Origem OLE DB]"
           TopLeft="251.5,76">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -3088,7 +3092,7 @@ FROM
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\MP_TMP_BAAN_FAAP003.Paths[Saída de Erro de Destino OLE DB1]"
+          Id="Package\MP_TMP_BAAN_FAAR003.Paths[Saída de Erro de Destino OLE DB1]"
           TopLeft="737.5,358">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -3112,31 +3116,31 @@ FROM
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\MP_TMP_BAAN_FAAP003.Paths[Saída de Erro de Destino OLE DB]"
-          TopLeft="495,334.5">
+          Id="Package\MP_TMP_BAAN_FAAR003.Paths[Saída de Erro de Destino OLE DB]"
+          TopLeft="497,334.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="140,0"
+              EndConnector="138,0"
               Start="0,0"
-              End="132.5,0">
+              End="130.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="132.5,0" />
+                    End="130.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-7.43648437500001,5,147.37296875,10.3349609375"
+              BoundingBox="-8.43648437500001,5,147.37296875,10.3349609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\MP_TMP_BAAN_FAAP003.Paths[Saída de Coluna Derivada1]"
+          Id="Package\MP_TMP_BAAN_FAAR003.Paths[Saída de Coluna Derivada1]"
           TopLeft="420.75,530">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -3158,8 +3162,8 @@ FROM
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\MP_TMP_BAAN_FAAP003.Paths[Saída de Coluna Derivada]"
-          TopLeft="407.25,268">
+          Id="Package\MP_TMP_BAAN_FAAR003.Paths[Saída de Coluna Derivada]"
+          TopLeft="405.25,268">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -3180,7 +3184,7 @@ FROM
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\MP_TMP_BAAN_FAAP003.Paths[Saída 0]"
+          Id="Package\MP_TMP_BAAN_FAAR003.Paths[Saída 0]"
           TopLeft="639,510">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -3202,7 +3206,7 @@ FROM
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\MP_TMP_BAAN_FAAP003.Paths[Contagem de Linhas Saída 1]"
+          Id="Package\MP_TMP_BAAN_FAAR003.Paths[Contagem de Linhas Saída 1]"
           TopLeft="740.25,446">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -3227,7 +3231,7 @@ FROM
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros">
+    design-time-name="Package\MP_TMP_BAAN_FAAR003\ODD Insere Ctrl Erros">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3240,7 +3244,7 @@ FROM
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row">
+    design-time-name="Package\MP_TMP_BAAN_FAAR003\ODD Insere Row By Row">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3253,7 +3257,7 @@ FROM
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100">
+    design-time-name="Package\MP_TMP_BAAN_FAAR003\SRC TMP Cia 100">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3261,7 +3265,7 @@ FROM
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar">
+    design-time-name="Package\MP_TMP_BAAN_FAAR003\ODD TMP CReceber">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

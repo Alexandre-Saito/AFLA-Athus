@@ -23,8 +23,9 @@ CREATE TABLE dbo.CTRL_MAPA_ATHUS (
 
 	INSERT INTO CTRL_MAPA_ATHUS VALUES (1, 'MP_TMP_BAAN_FAAP003', 'Temp AP', 'TMP', '', '', '', '', '');
 	INSERT INTO CTRL_MAPA_ATHUS VALUES (2, 'MP_TMP_BAAN_FAAR003', 'Temp AR', 'TMP', '', '', '', '', '');
-
-	INSERT INTO CTRL_MAPA_ATHUS VALUES (3, 'MP_STG_SAP_P2P_MATERIAL', 'Interface TXT', 'TXT', '', '', '', '', '');
+	INSERT INTO CTRL_MAPA_ATHUS VALUES (3, 'MP_STG_BAAN_ERRO_DOCTO_ATHUS', 'STG AP E AR', 'STG', '', '', '', '', '');
+	
+	
 	INSERT INTO CTRL_MAPA_ATHUS VALUES (4, 'MP_DIM_SAP_MATERIAL', 'STG_P2P_CAD_MATERIAL', 'DIM', '', '', '', '', '');
 	INSERT INTO CTRL_MAPA_ATHUS VALUES (5, 'MP_STG_SAP_P2P_MOV_ESTOQUE_MENSAL', 'STAGING', 'STG', '', '', '', '', '');
 	INSERT INTO CTRL_MAPA_ATHUS VALUES (6, 'MP_HST_SAP_P2P_MOV_ESTOQUE_MENSAL', 'HISTORICO', 'HST', '', '', '', '', '');
@@ -130,9 +131,9 @@ CREATE TABLE dbo.CTRL_Regras_Eventos_Carga_ATHUS (
 
 	INSERT INTO CTRL_Regras_Eventos_Carga_ATHUS VALUES (1, 'Erro Carga tabela temporaria TMP Contas Pagar', 'S', 'TMP_BAAN_FAAP003', 'Erro CARGA', 1)
 	INSERT INTO CTRL_Regras_Eventos_Carga_ATHUS VALUES (2, 'Erro Carga tabela temporaria TMP Contas Receber', 'S', 'TMP_BAAN_FAAR003', 'Erro CARGA', 2)
-
-
-	INSERT INTO CTRL_Regras_Eventos_Carga_ATHUS VALUES (3, 'Erro Carga tabela temporaria STG Cad Material', 'S', 'STG_P2P_CAD_MATERIAL', 'Erro CARGA', 3)
+	INSERT INTO CTRL_Regras_Eventos_Carga_ATHUS VALUES (3, 'Erro Carga tabela Staging STG Erro Docto Athus', 'S', 'STG_BAAN_ERRO_DOCTO_ATHUS', 'Erro CARGA', 3)
+	
+	
 	INSERT INTO CTRL_Regras_Eventos_Carga_ATHUS VALUES (4, 'Erro Carga tabela Staging Mov Estoque Mensal', 'S', 'STG_P2P_MOV_ESTOQUE_MENSAL', 'Erro CARGA', 5)
 	INSERT INTO CTRL_Regras_Eventos_Carga_ATHUS VALUES (5, 'Erro Carga tabela Historico Mov Estoque Mensal', 'S', 'HST_P2P_MOV_ESTOQUE_MENSAL', 'Erro CARGA', 6)
 	INSERT INTO CTRL_Regras_Eventos_Carga_ATHUS VALUES (6, 'Erro Carga tabela temporaria CSV Cad Almoxarifado', 'S', 'TXT_P2P_CAD_ALMOXARIFADO', 'Erro CARGA', 7)
