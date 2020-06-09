@@ -199,16 +199,16 @@ CREATE TABLE dbo.TXT_P2P_CAD_MATERIAL (
 	VLR_TEMPO_PROC		VARCHAR(250),	--Tempo Processo (Proc time)
 	COD_GRP_CARREG		VARCHAR(250),	--Grupo Carregamento (LoadingGrp)
 	QTD_BASE			VARCHAR(250),	--Quantidade Base (Base qty)
-	COD_COMEX			VARCHAR(250),	--CÛdigo COMEX (Comm/Imp Code No.)
+	COD_COMEX			VARCHAR(250),	--C√≥digo COMEX (Comm/Imp Code No.)
 	GRP_COMEX			VARCHAR(250),	--Grupo COMEX (Export/Import group)
 	NUM_PRODCOM			VARCHAR(250),	--PRODCOM No
-	COD_CONTROLE		VARCHAR(250),	--CÛdigo Controle (Control Code)
+	COD_CONTROLE		VARCHAR(250),	--C√≥digo Controle (Control Code)
 	COD_ORIGEM			VARCHAR(250),	--Local Origem (Country of origin)
-	COD_REGIAO_ORIGEM	VARCHAR(250),	--Regi„o Origem (Region of origin)
+	COD_REGIAO_ORIGEM	VARCHAR(250),	--Regi√£o Origem (Region of origin)
 	NUM_LISTA_PRM		VARCHAR(250),	--Numero Lista Produto (CAP Product List No.)
 	CAP_GRP_PRM			VARCHAR(250),	--Grupo Produto (CAP Prod Group)
 	COD_CERTIF_ISENCAO	VARCHAR(250),	--Certificado Isencao (ExemptionCertificate)
-	NUM_CERTIF_ISENCAO	VARCHAR(250),	--N˙mero Certif Isencao (Exemption Cert No.)
+	NUM_CERTIF_ISENCAO	VARCHAR(250),	--N√∫mero Certif Isencao (Exemption Cert No.)
 	DTA_CERTIF_ISENCAO	VARCHAR(250),	--Data Certificado Isencao (Iss Date of Ex cert)
 	COD_MAT_CTG_CFOP	VARCHAR(250),	--Categoria CFOP Material (Mat CFOP category)
 	COD_GRP_COMPRAS		VARCHAR(250),	--Grupo Compras (Purchasing Group)
@@ -220,26 +220,26 @@ CREATE TABLE dbo.TXT_P2P_CAD_MATERIAL (
 	COD_LISTA_ORIGEM	VARCHAR(250),	--Lista Origem (Source List)
 	COD_CONTROLE_1		VARCHAR(250),	--(Control Code)
 	COD_GRP_MRP			VARCHAR(250),	--GrupoMRP (MRP group)
-	COD_ABC				VARCHAR(250),	--CÛdigoABC (ABC indicator)
+	COD_ABC				VARCHAR(250),	--C√≥digoABC (ABC indicator)
 	COD_TIP_MRP			VARCHAR(250),	--TpMRP (MRP Type)
 	QTD_PTO_REABAST		VARCHAR(250),	--Pt.Reabast (Reorder Point)
 	COD_PLJ_MRP			VARCHAR(250),	--PljMRP (MRP Controller)
 	NUM_TAM_LOTE_MRP	VARCHAR(250),	--TamLtMRP (Lot size)
 	NUM_TAM_MIN_LOTE	VARCHAR(250),	--TamMinLote (Minimum lot size)
-	NUM_TAM_MAX_LOTE	VARCHAR(250),	--TamM·xLote (Maximum lot size)
-	QTD_MAX_ESTOQUE		VARCHAR(250),	--EstoqueM·x (Maximum stock level)
+	NUM_TAM_MAX_LOTE	VARCHAR(250),	--TamM√°xLote (Maximum lot size)
+	QTD_MAX_ESTOQUE		VARCHAR(250),	--EstoqueM√°x (Maximum stock level)
 	COD_TIP_SUP			VARCHAR(250),	--TipSup (Procurement type)
 	COD_TIP_SUP_ESPEC	VARCHAR(250),	--TpSupEs (Special procurement)
 	COD_LOCAL_STORE		VARCHAR(250),	--DepPro (Prod Stor Location)
 	NUM_PRZ_ENTR_PR		VARCHAR(250),	--PrzEntrPr (Plnd Delivery Time)
 	QTD_SEGURO_ESTOQUE	VARCHAR(250),	--EstqSeg (Safety Stock)
-	COD_SELEC_ALTER		VARCHAR(250),	--SeleÁAlter (Selection Method)
+	COD_SELEC_ALTER		VARCHAR(250),	--Sele√ßAlter (Selection Method)
 	PRC_COMP_REFUG		VARCHAR(250),	--RefugComp (Component scrap (%))
 	COD_INDIV_COL		VARCHAR(250),	--Indiv/col (Individual/Coll)
 	COD_PROD_REP		VARCHAR(250),	--ProdRep (Repetitive Mfg)
 	COD_PERFIL_REM		VARCHAR(250),	--PerfProdRe (REM Profile)
-	COD_VERSAO			VARCHAR(250),	--Vers„o (Version Indicator)
-	COD_UM_SAIDA		VARCHAR(250),	--UMSaÌda (Unit of issue :: UND_VENDA????)
+	COD_VERSAO			VARCHAR(250),	--Vers√£o (Version Indicator)
+	COD_UM_SAIDA		VARCHAR(250),	--UMSa√≠da (Unit of issue :: UND_VENDA????)
 	COD_INV_ROTAT		VARCHAR(250),	--Inv.Rotat (CC Phys Inv Ind)
 	COD_CC_FIXO			VARCHAR(250),	--CC fixo (CC fixed)
 	COD_UNID_TEMP		VARCHAR(250),	--Unidade Tempo (Time unit)
@@ -250,16 +250,16 @@ CREATE TABLE dbo.TXT_P2P_CAD_MATERIAL (
 	COD_TIPO_CERTIF		VARCHAR(250),	-- (Certificate type)
 	COD_PROFIT_CENTER	VARCHAR(250),	--Ctg.cert. (Profit Center)
 	COD_CO_PROD			VARCHAR(250),	--Co-prod (Co-product)
-	COD_AREA_AVAL		VARCHAR(250),	--¡rea aval (Valuation Area)
+	COD_AREA_AVAL		VARCHAR(250),	--√Årea aval (Valuation Area)
 	COD_CLASSE_AVAL		VARCHAR(250),	--ClassAval (Valuation Class)
-	VLR_PRC_STANDARD	VARCHAR(250),	--PrÁ stand (Standard Price)
-	UND_PRECO			VARCHAR(250),	--Un preÁo (Price Unit)
+	VLR_PRC_STANDARD	VARCHAR(250),	--Pr√ß stand (Standard Price)
+	UND_PRECO			VARCHAR(250),	--Un pre√ßo (Price Unit)
 	COD_LM_ATIVO		VARCHAR(250),	--LMativo (ML Act)
 	COD_CALC_EST		VARCHAR(250),	--Calc Est (With Qty Structure)
 	COD_GRP_ORIGINAL	VARCHAR(250),	--(Origin Group)
 	VLR_PRC_PLAN		VARCHAR(250),	--Preco Planejado (Planned Price)
 	VLR_CLASSE_AVAL_1	VARCHAR(250),	--Class Aval (Valuation Class)
-	COD_CTRL_PRECO		VARCHAR(250),	--CtrlPrÁ (Price Control)
+	COD_CTRL_PRECO		VARCHAR(250),	--CtrlPr√ß (Price Control)
 	VLR_PRC_MOVEL		VARCHAR(250),	--Preco Movel (Moving Price)
 	VLR_PRC_PLAN_ANT	VARCHAR(250),	--Preco Planejado Anterior (Previous Planned Price)
 	COD_DET_PRECO		VARCHAR(250),	--DetTar (Price Determ)
@@ -327,16 +327,16 @@ CREATE TABLE dbo.STG_P2P_CAD_MATERIAL (
 	VLR_TEMPO_PROC		NUMERIC(17,3),	--Tempo Processo (Proc time)
 	COD_GRP_CARREG		VARCHAR(20),	--Grupo Carregamento (LoadingGrp)
 	QTD_BASE			NUMERIC(17,3),	--Quantidade Base (Base qty)
-	COD_COMEX			VARCHAR(20),	--CÛdigo COMEX (Comm/Imp Code No.)
+	COD_COMEX			VARCHAR(20),	--C√≥digo COMEX (Comm/Imp Code No.)
 	GRP_COMEX			VARCHAR(20),	--Grupo COMEX (Export/Import group)
 	NUM_PRODCOM			INT,			--PRODCOM No
-	COD_CONTROLE		VARCHAR(20),	--CÛdigo Controle (Control Code)
+	COD_CONTROLE		VARCHAR(20),	--C√≥digo Controle (Control Code)
 	COD_ORIGEM			VARCHAR(02),	--Local Origem (Country of origin)
-	COD_REGIAO_ORIGEM	VARCHAR(20),	--Regi„o Origem (Region of origin)
+	COD_REGIAO_ORIGEM	VARCHAR(20),	--Regi√£o Origem (Region of origin)
 	NUM_LISTA_PRM		VARCHAR(20),	--Numero Lista Produto (CAP Product List No.)
 	CAP_GRP_PRM			VARCHAR(20),	--Grupo Produto (CAP Prod Group)
 	COD_CERTIF_ISENCAO	VARCHAR(20),	--Certificado Isencao (ExemptionCertificate)
-	NUM_CERTIF_ISENCAO	VARCHAR(20),	--N˙mero Certif Isencao (Exemption Cert No.)
+	NUM_CERTIF_ISENCAO	VARCHAR(20),	--N√∫mero Certif Isencao (Exemption Cert No.)
 	DTA_CERTIF_ISENCAO	DATE,			--Data Certificado Isencao (Iss Date of Ex cert)
 	COD_MAT_CTG_CFOP	VARCHAR(20),	--Categoria CFOP Material (Mat CFOP category)
 	COD_GRP_COMPRAS		VARCHAR(20),	--Grupo Compras (Purchasing Group)
@@ -346,28 +346,28 @@ CREATE TABLE dbo.STG_P2P_CAD_MATERIAL (
 	COD_TMPO_PROC_EM	VARCHAR(20),	--TmpoProcEM (GR Processing Time)
 	COD_UTIL_QUOTIZ		VARCHAR(20),	--UtilQuotiz (Quota Arr Usage)
 	COD_LISTA_ORIGEM	VARCHAR(20),	--Lista Origem (Source List)
-	COD_CONTROLE_1		VARCHAR(20),	--CÛdigo Controle (Control Code)
+	COD_CONTROLE_1		VARCHAR(20),	--C√≥digo Controle (Control Code)
 	COD_GRP_MRP			VARCHAR(20),	--GrupoMRP (MRP group)
-	COD_ABC				VARCHAR(20),	--CÛdigoABC (ABC indicator)
+	COD_ABC				VARCHAR(20),	--C√≥digoABC (ABC indicator)
 	COD_TIP_MRP			VARCHAR(20),	--TpMRP (MRP Type)
 	QTD_PTO_REABAST		NUMERIC(17,3),	--Pt.Reabast (Reorder Point)
 	COD_PLJ_MRP			VARCHAR(20),	--PljMRP (MRP Controller)
 	NUM_TAM_LOTE_MRP	VARCHAR(20),	--TamLtMRP (Lot size)
 	NUM_TAM_MIN_LOTE	NUMERIC(17,3),	--TamMinLote (Minimum lot size)
-	NUM_TAM_MAX_LOTE	NUMERIC(17,3),	--TamM·xLote (Maximum lot size)
-	QTD_MAX_ESTOQUE		NUMERIC(17,3),	--EstoqueM·x (Maximum stock level)
+	NUM_TAM_MAX_LOTE	NUMERIC(17,3),	--TamM√°xLote (Maximum lot size)
+	QTD_MAX_ESTOQUE		NUMERIC(17,3),	--EstoqueM√°x (Maximum stock level)
 	COD_TIP_SUP			VARCHAR(20),	--TipSup (Procurement type)
 	COD_TIP_SUP_ESPEC	VARCHAR(20),	--TpSupEs (Special procurement)
 	COD_LOCAL_STORE		VARCHAR(20),	--DepPro (Prod Stor Location)
 	NUM_PRZ_ENTR_PR		INT,			--PrzEntrPr (Plnd Delivery Time)
 	QTD_SEGURO_ESTOQUE	NUMERIC(17,3),	--EstqSeg (Safety Stock)
-	COD_SELEC_ALTER		VARCHAR(20),	--SeleÁAlter (Selection Method)
+	COD_SELEC_ALTER		VARCHAR(20),	--Sele√ßAlter (Selection Method)
 	PRC_COMP_REFUG		NUMERIC(17,3),	--RefugComp (Component scrap (%))
 	COD_INDIV_COL		VARCHAR(20),	--Indiv/col (Individual/Coll)
 	COD_PROD_REP		VARCHAR(20),	--ProdRep (Repetitive Mfg)
 	COD_PERFIL_REM		VARCHAR(20),	--PerfProdRe (REM Profile)
-	COD_VERSAO			VARCHAR(20),	--Vers„o (Version Indicator)
-	COD_UM_SAIDA		VARCHAR(20),	--UMSaÌda (Unit of issue :: UND_VENDA????)
+	COD_VERSAO			VARCHAR(20),	--Vers√£o (Version Indicator)
+	COD_UM_SAIDA		VARCHAR(20),	--UMSa√≠da (Unit of issue :: UND_VENDA????)
 	COD_INV_ROTAT		VARCHAR(20),	--Inv.Rotat (CC Phys Inv Ind)
 	COD_CC_FIXO			VARCHAR(20),	--CC fixo (CC fixed)
 	COD_UNID_TEMP		VARCHAR(20),	--Unidade Tempo (Time unit)
@@ -378,16 +378,16 @@ CREATE TABLE dbo.STG_P2P_CAD_MATERIAL (
 	COD_TIPO_CERTIF		VARCHAR(20),	--(Certificate type)
 	COD_PROFIT_CENTER	VARCHAR(20),	--Ctg.cert. (Profit Center)
 	COD_CO_PROD			VARCHAR(20),	--Co-prod (Co-product)
-	COD_AREA_AVAL		VARCHAR(05),	--¡rea aval (Valuation Area)
+	COD_AREA_AVAL		VARCHAR(05),	--√Årea aval (Valuation Area)
 	COD_CLASSE_AVAL		VARCHAR(20),	--ClassAval (Valuation Class)
-	VLR_PRC_STANDARD	NUMERIC(17,3),	--PrÁ stand (Standard Price)
-	UND_PRECO			VARCHAR(20),	--Un preÁo (Price Unit)
+	VLR_PRC_STANDARD	NUMERIC(17,3),	--Pr√ß stand (Standard Price)
+	UND_PRECO			VARCHAR(20),	--Un pre√ßo (Price Unit)
 	COD_LM_ATIVO		VARCHAR(20),	--LMativo (ML Act)
 	COD_CALC_EST		VARCHAR(20),	--Calc Est (With Qty Structure)
 	COD_GRP_ORIGINAL	VARCHAR(20),	--(Origin Group)
 	VLR_PRC_PLAN		NUMERIC(17,3),	--Preco Planejado (Planned Price)
 	VLR_CLASSE_AVAL_1	VARCHAR(20),	--Class Aval (Valuation Class)
-	COD_CTRL_PRECO		VARCHAR(20),	--CtrlPrÁ (Price Control)
+	COD_CTRL_PRECO		VARCHAR(20),	--CtrlPr√ß (Price Control)
 	VLR_PRC_MOVEL		NUMERIC(17,3),	--Preco Movel (Moving Price)
 	VLR_PRC_PLAN_ANT	NUMERIC(17,3),	--Preco Planejado Anterior (Previous Planned Price)
 	COD_DET_PRECO		NUMERIC(17,3),	--DetTar (Price Determ)
@@ -987,7 +987,7 @@ CREATE TABLE dbo.DIM_P2P_CAD_NF_ENTRADA (
 	);
 
 	INSERT INTO DIM_P2P_CAD_NF_ENTRADA VALUES ('4015','000000000','XXXXXX','COMPRAS','2018-01-01','XXXX SEM INFORMACAO','COMPRA SEM INFORMACAO','BRL','2018-01-01','NDA');
-	INSERT INTO DIM_P2P_CAD_NF_ENTRADA VALUES ('4015','000000000','XXXXXX','DEVOLU«√O','2018-01-01','XXXX SEM INFORMACAO','COMPRA SEM INFORMACAO','BRL','2018-01-01','NDA');
+	INSERT INTO DIM_P2P_CAD_NF_ENTRADA VALUES ('4015','000000000','XXXXXX','DEVOLU√á√ÉO','2018-01-01','XXXX SEM INFORMACAO','COMPRA SEM INFORMACAO','BRL','2018-01-01','NDA');
 
 -- Receber os dados da interface SAP_P2P_CAD_OCOMPRAS.txt
 DROP TABLE dbo.TXT_P2P_CAD_ORDEM_COMPRA;
@@ -1091,7 +1091,7 @@ CREATE TABLE dbo.DIM_P2P_CAD_SOLIC_COMPRA (
 	INSERT INTO DIM_P2P_CAD_SOLIC_COMPRA VALUES ('4015','0000000000','X NAO INFORMADO','2018-01-01','NAO INFORMADO','000','NAO INFORMADO','NAO INFORMADO','2018-01-01')
 
 
---///// AVALICA«√O DE FORNECEDORES /////--
+--///// AVALICA√á√ÉO DE FORNECEDORES /////--
 
 --///// Arquivo :: SAP_P2P_MOV_AV_FORN
 DROP TABLE dbo.TXT_P2P_AVF_FORNECIMENTO;
@@ -1392,24 +1392,24 @@ CREATE TABLE dbo.TMP_P2P_AVF_RNC_ITEM_PVT (
 	COD_PLANTA			VARCHAR(30)
 	);
 
---///// Arquivo :: AV Dados de MP para AvaliaÁ„o de Fornecedor.XLSX
+--///// Arquivo :: AV Dados de MP para Avalia√ß√£o de Fornecedor.XLSX
 DROP TABLE dbo.TXT_P2P_AVF_RNC;
 CREATE TABLE dbo.TXT_P2P_AVF_RNC (
 	IDE_TEMP			INT IDENTITY,
 	SKY_AUDITKEY		INT,
 	DTA_CARGA			DATETIME,
 	NUM_RNC				VARCHAR(50),	--Nr. ocor.
-	DTA_ANO				VARCHAR(50),	--Ano - OcorrÍncia
-	DTA_MES				VARCHAR(50),	--MÍs - OcorrÍncia
+	DTA_ANO				VARCHAR(50),	--Ano - Ocorr√™ncia
+	DTA_MES				VARCHAR(50),	--M√™s - Ocorr√™ncia
 	COD_PRODUTO			VARCHAR(50),	--MAU MAT_FOR_CODPROD
 	DES_PRODUTO			VARCHAR(50),	--MAU MAT_FOR_DESCPROD
 	COD_FORNECEDOR		VARCHAR(50),	--SAP MAU MAT_FOR_VENDOR
 	DES_FORNECEDOR		VARCHAR(50),	--MAU MAT_FOR_DESCFORN
 	DES_DESVIO			VARCHAR(50),	--MAU DESVIO 1:
 	DES_CLASSIF			VARCHAR(50),	--MAU CLASSIF. RNC
-	TIP_ACAO			VARCHAR(50),	--Tipo da aÁ„o
-	DES_ACAO			VARCHAR(250),	--AÁ„o
-	DES_OCORRENCIA		VARCHAR(250),	--OcorrÍncia
+	TIP_ACAO			VARCHAR(50),	--Tipo da a√ß√£o
+	DES_ACAO			VARCHAR(250),	--A√ß√£o
+	DES_OCORRENCIA		VARCHAR(250),	--Ocorr√™ncia
 	QTD_QUILO			VARCHAR(50)		--MAU QTDE.
 	);
 
@@ -1428,9 +1428,9 @@ CREATE TABLE dbo.STG_P2P_AVF_RNC (
 	DES_DESVIO			VARCHAR(50),	--MAU DESVIO 1:
 	COD_CLASSIF			VARCHAR(04),	--COD CLASSIF
 	DES_CLASSIF			VARCHAR(50),	--MAU CLASSIF. RNC
-	TIP_ACAO			VARCHAR(50),	--Tipo da aÁ„o
-	DES_ACAO			VARCHAR(250),	--AÁ„o
-	DES_OCORRENCIA		VARCHAR(250),	--OcorrÍncia
+	TIP_ACAO			VARCHAR(50),	--Tipo da a√ß√£o
+	DES_ACAO			VARCHAR(250),	--A√ß√£o
+	DES_OCORRENCIA		VARCHAR(250),	--Ocorr√™ncia
 	QTD_QUILO			NUMERIC(17,3),	--MAU QTDE.
 	COD_QUALITY			CHAR(01) DEFAULT 'S'
 	);
@@ -1447,9 +1447,9 @@ CREATE TABLE dbo.HST_P2P_AVF_RNC (
 	DES_DESVIO			VARCHAR(50),	--MAU DESVIO 1:
 	COD_CLASSIF			VARCHAR(04),	--COD CLASSIF
 	DES_CLASSIF			VARCHAR(50),	--MAU CLASSIF. RNC
-	TIP_ACAO			VARCHAR(50),	--Tipo da aÁ„o
-	DES_ACAO			VARCHAR(250),	--AÁ„o
-	DES_OCORRENCIA		VARCHAR(250),	--OcorrÍncia
+	TIP_ACAO			VARCHAR(50),	--Tipo da a√ß√£o
+	DES_ACAO			VARCHAR(250),	--A√ß√£o
+	DES_OCORRENCIA		VARCHAR(250),	--Ocorr√™ncia
 	QTD_QUILO			NUMERIC(17,3),	--MAU QTDE.
 	CONSTRAINT PK_HST_P2P_AVF_RNC PRIMARY KEY NONCLUSTERED (COD_PLANTA, NUM_RNC)
 	);
@@ -1489,7 +1489,7 @@ CREATE TABLE dbo.HST_P2P_AVF_SERVICO (
 	VLR_NOTA			NUMERIC(17,3),	--Nota
 	COD_USUARIO			VARCHAR(20),	--Usuario
 	DTA_CRIACAO			DATE,			--Data Criacao
-	DTA_BASE			DATE,			--Data Base para replicaÁao
+	DTA_BASE			DATE,			--Data Base para replica√ßao
 	VLR_NOTA1			NUMERIC(17,3),	--Valor Nota1
 	VLR_NOTA2			NUMERIC(17,3),	--Valor Nota2
 	VLR_NOTA3			NUMERIC(17,3),	--Valor Nota3
@@ -1608,4 +1608,4 @@ CREATE TABLE dbo.CAD_P2P_MATERIAL_X_PARCEIRO (
 	COD_PARCEIRO		VARCHAR(15)		--Customer/Vendor
 	);
 
-	CREATE INDEX IX_CAD_P2P_MATERIAL_X_PARCEIRO_01 ON CAD_P2P_MATERIAL_X_PARCEIRO (COD_PLANTA, COD_MATERIAL);
+CREATE INDEX IX_CAD_P2P_MATERIAL_X_PARCEIRO_01 ON CAD_P2P_MATERIAL_X_PARCEIRO (COD_PLANTA, COD_MATERIAL);
