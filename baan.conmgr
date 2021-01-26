@@ -5,10 +5,10 @@
   DTS:CreationName="OLEDB">
   <DTS:ObjectData>
     <DTS:ConnectionManager
-      DTS:ConnectionString="Data Source=ds191050T\baanarg;User ID=dw_la;Initial Catalog=baandb;Provider=SQLNCLI11.1;Auto Translate=False;">
+      DTS:ConnectionString="Data Source=ds191050T\baanarg;User ID=dw_la;Initial Catalog=baandb;Provider=MSOLEDBSQL.1;Persist Security Info=True;Application Name=SSIS-{26F331B8-A6D4-4D2F-96D7-7BEB12CB87C2}ds191050T_baanarg.baandb.dw_la;">
       <DTS:Password
         DTS:Name="Password"
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA1UIGZ2dUX0ehMb+4FBKBNAAAAAACAAAAAAADZgAAwAAAABAAAADA0O9q88oINsQF5iBMo+yiAAAAAASAAACgAAAAEAAAAJ3M33+KdDKgtukxhfb5lS94AAAAOay88niCtLp2YrwSYWPS1cUOpznJebnngFVKkVPn6mAj43QHGH4RizKk6x03dmuMuWE/eTfW/PWfw/BNpWF4VbCl7LLnBZMQ5Pls4jc6PZCMRnMvCUoBUNEHKDlwH+/6y36GHbyL2f7HzFdPQdU7cwqhaGngMPf1FAAAAAhvjhqPstEbaMDTBvSyZoWhoisu</DTS:Password>
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAABh4rDNB3U2jLm5bFbbCgAAAAAACAAAAAAADZgAAwAAAABAAAAAOswRk8J0saa/wHCUorlNaAAAAAASAAACgAAAAEAAAABHkpekGQ5G6tY87LqmYPPV4AAAAT7ZyhVUFbZnZzkCVdGUwFDpyqi4nNkY4cFH3XRkmUT9LiC5GAR5t+VFyka2/qot0K50iu1ZL1ihIvvJMAuM9UqdvA6QmIn4SW37X3NgYqR4PGGtc3StfDE63SIf6HzaJ9ylNbkEpWAozXnm1lX6dRqgOFOUMkHs1FAAAAOsMGxmh3OeElL4/Fpgtnhw3YypV</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

@@ -7,12 +7,12 @@
   DTS:CreatorName="BEMIS\d0107640"
   DTS:DTSID="{3758DCCF-F485-4B5C-BA49-4910A7AEF19A}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.2000.121"
+  DTS:LastModifiedProductVersion="15.0.2000.132"
   DTS:LocaleID="1046"
   DTS:ObjectName="MP_STG_BAAN_ERRO_DOCTO_ATHUS"
   DTS:PackageType="5"
-  DTS:VersionBuild="16"
-  DTS:VersionGUID="{38A970BC-814D-4963-8E2A-793FC83625E0}">
+  DTS:VersionBuild="17"
+  DTS:VersionGUID="{4C6A280F-DA65-4816-A9C0-2A118FF989EE}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -985,6 +985,14 @@
                       cachedName="DES_CONTA"
                       externalMetadataColumnId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[DES_CONTA]"
                       lineageId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[DES_CONTA]" />
+                    <inputColumn
+                      refId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].Columns[COD_ENTIDADE]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="COD_ENTIDADE"
+                      externalMetadataColumnId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_ENTIDADE]"
+                      lineageId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[COD_ENTIDADE]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1042,6 +1050,12 @@
                       dataType="str"
                       length="1"
                       name="COD_QUALITY" />
+                    <externalMetadataColumn
+                      refId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_ENTIDADE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      name="COD_ENTIDADE" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -1204,6 +1218,14 @@
                       cachedName="DES_CONTA"
                       externalMetadataColumnId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\ODD STG AP AR.Inputs[Entrada de Destino OLE DB].ExternalColumns[DES_CONTA]"
                       lineageId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[DES_CONTA]" />
+                    <inputColumn
+                      refId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\ODD STG AP AR.Inputs[Entrada de Destino OLE DB].Columns[COD_ENTIDADE]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="COD_ENTIDADE"
+                      externalMetadataColumnId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\ODD STG AP AR.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_ENTIDADE]"
+                      lineageId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[COD_ENTIDADE]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1261,6 +1283,12 @@
                       dataType="str"
                       length="1"
                       name="COD_QUALITY" />
+                    <externalMetadataColumn
+                      refId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\ODD STG AP AR.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_ENTIDADE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      name="COD_ENTIDADE" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -2248,6 +2276,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
 	'AP'	AS "COD_CONTA",
 	'CONTAS PAGAR'	AS "DES_CONTA",
 	COD_CIA,
+	COD_SUNO,
 	NUM_DOCTO,
 	COD_ERRO,
 	DES_ERRO,
@@ -2360,6 +2389,17 @@ FROM
                       lineageId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AP.Outputs[Saída de Origem OLE DB].Columns[DTA_PROC]"
                       name="DTA_PROC"
                       truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AP.Outputs[Saída de Origem OLE DB].Columns[COD_SUNO]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AP.Outputs[Saída de Origem OLE DB].ExternalColumns[COD_SUNO]"
+                      length="10"
+                      lineageId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AP.Outputs[Saída de Origem OLE DB].Columns[COD_SUNO]"
+                      name="COD_SUNO"
+                      truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2399,6 +2439,12 @@ FROM
                       refId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AP.Outputs[Saída de Origem OLE DB].ExternalColumns[DTA_PROC]"
                       dataType="dbDate"
                       name="DTA_PROC" />
+                    <externalMetadataColumn
+                      refId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AP.Outputs[Saída de Origem OLE DB].ExternalColumns[COD_SUNO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      name="COD_SUNO" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -2425,6 +2471,13 @@ FROM
                       dataType="i4"
                       lineageId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AP.Outputs[Saída de Erro de Origem OLE DB].Columns[COD_CIA]"
                       name="COD_CIA" />
+                    <outputColumn
+                      refId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AP.Outputs[Saída de Erro de Origem OLE DB].Columns[COD_SUNO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      lineageId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AP.Outputs[Saída de Erro de Origem OLE DB].Columns[COD_SUNO]"
+                      name="COD_SUNO" />
                     <outputColumn
                       refId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AP.Outputs[Saída de Erro de Origem OLE DB].Columns[NUM_DOCTO]"
                       dataType="i4"
@@ -2495,6 +2548,7 @@ FROM
 	'AR'	AS "COD_CONTA",
 	'CONTAS RECEBER'	AS "DES_CONTA",
 	COD_CIA,
+	COD_CUNO,
 	NUM_DOCTO,
 	COD_ERRO,
 	DES_ERRO,
@@ -2607,6 +2661,17 @@ FROM
                       lineageId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AR.Outputs[Saída de Origem OLE DB].Columns[DES_CONTA]"
                       name="DES_CONTA"
                       truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AR.Outputs[Saída de Origem OLE DB].Columns[COD_CUNO]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AR.Outputs[Saída de Origem OLE DB].ExternalColumns[COD_CUNO]"
+                      length="10"
+                      lineageId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AR.Outputs[Saída de Origem OLE DB].Columns[COD_CUNO]"
+                      name="COD_CUNO"
+                      truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2646,6 +2711,12 @@ FROM
                       refId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AR.Outputs[Saída de Origem OLE DB].ExternalColumns[DTA_PROC]"
                       dataType="dbDate"
                       name="DTA_PROC" />
+                    <externalMetadataColumn
+                      refId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AR.Outputs[Saída de Origem OLE DB].ExternalColumns[COD_CUNO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      name="COD_CUNO" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -2670,6 +2741,13 @@ FROM
                       dataType="i4"
                       lineageId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AR.Outputs[Saída de Erro de Origem OLE DB].Columns[NUM_DOCTO]"
                       name="NUM_DOCTO" />
+                    <outputColumn
+                      refId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AR.Outputs[Saída de Erro de Origem OLE DB].Columns[COD_CUNO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      lineageId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AR.Outputs[Saída de Erro de Origem OLE DB].Columns[COD_CUNO]"
+                      name="COD_CUNO" />
                     <outputColumn
                       refId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AR.Outputs[Saída de Erro de Origem OLE DB].Columns[COD_ERRO]"
                       codePage="1252"
@@ -2824,6 +2902,21 @@ FROM
                           name="OutputColumnLineageID">#{Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[DES_CONTA]}</property>
                       </properties>
                     </inputColumn>
+                    <inputColumn
+                      refId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\Unir Tudo.Inputs[Unir Tudo Entrada 1].Columns[COD_SUNO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="COD_SUNO"
+                      lineageId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AP.Outputs[Saída de Origem OLE DB].Columns[COD_SUNO]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Identificação de linhagem de coluna de saída"
+                          name="OutputColumnLineageID">#{Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[COD_ENTIDADE]}</property>
+                      </properties>
+                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -2931,6 +3024,21 @@ FROM
                           name="OutputColumnLineageID">#{Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[DES_CONTA]}</property>
                       </properties>
                     </inputColumn>
+                    <inputColumn
+                      refId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\Unir Tudo.Inputs[Entrada Unir Tudo 1].Columns[COD_CUNO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="COD_CUNO"
+                      lineageId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AR.Outputs[Saída de Origem OLE DB].Columns[COD_CUNO]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Identificação de linhagem de coluna de saída"
+                          name="OutputColumnLineageID">#{Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[COD_ENTIDADE]}</property>
+                      </properties>
+                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -2990,6 +3098,13 @@ FROM
                       length="14"
                       lineageId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[DES_CONTA]"
                       name="DES_CONTA" />
+                    <outputColumn
+                      refId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[COD_ENTIDADE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      lineageId="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[COD_ENTIDADE]"
+                      name="COD_ENTIDADE" />
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -3106,19 +3221,19 @@ FROM
       DTS:To="Package\EST Atualiza Dim Auditoria 1" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
-<!--Esta seção CDATA contém as informações de layout do pacote. A seção inclui informações como coordenadas (x,y), largura e altura.-->
-<!--Se você editar manualmente esta seção e cometer algum erro, poderá excluí-la. -->
-<!--O pacote ainda poderá ser carregado normalmente, mas as informações de layout anteriores serão perdidas e o designer reorganizará automaticamente os elementos na superfície de design.-->
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
 <Objects
   Version="8">
-  <!--Cada nó abaixo conterá propriedades que não afetam o comportamento em tempo de execução.-->
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
   <Package
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="239,42"
+          Size="238.666666666667,42"
           Id="Package\EST Apaga Ultimos Erros Carga"
           TopLeft="58,115" />
         <NodeLayout
@@ -3138,7 +3253,7 @@ FROM
           Id="Package\EST Busca Parametro"
           TopLeft="90,29" />
         <NodeLayout
-          Size="209,42"
+          Size="209.333333333334,42"
           Id="Package\EST Insere DIM_Auditoria"
           TopLeft="80,197" />
         <NodeLayout
@@ -3146,7 +3261,7 @@ FROM
           Id="Package\EST Trunca STG"
           TopLeft="420,198" />
         <NodeLayout
-          Size="193,42"
+          Size="193.333333333334,42"
           Id="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS"
           TopLeft="414,292" />
         <EdgeLayout
@@ -3312,15 +3427,11 @@ FROM
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="183,42"
-          Id="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\DC Criar Layout Erro"
-          TopLeft="326,488" />
+          Size="148,42"
+          Id="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AP"
+          TopLeft="234,34" />
         <NodeLayout
-          Size="208,42"
-          Id="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SC Obtem Descrição Erro"
-          TopLeft="639,490" />
-        <NodeLayout
-          Size="121,42"
+          Size="121.333333333334,42"
           Id="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\RC Erro"
           TopLeft="677,404" />
         <NodeLayout
@@ -3328,25 +3439,33 @@ FROM
           Id="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\ODD Insere Ctrl Erros"
           TopLeft="330,586" />
         <NodeLayout
-          Size="129,42"
-          Id="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\Unir Tudo"
-          TopLeft="339,144" />
+          Size="166.666666666667,42"
+          Id="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\ODD STG AP AR"
+          TopLeft="323,311" />
         <NodeLayout
-          Size="205,42"
+          Size="205.333333333334,42"
           Id="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\ODD Insere Row By Row"
           TopLeft="635,316" />
         <NodeLayout
-          Size="123,42"
+          Size="129.333333333334,42"
+          Id="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\Unir Tudo"
+          TopLeft="339,144" />
+        <NodeLayout
+          Size="182.666666666667,42"
+          Id="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\DC Criar Layout Erro"
+          TopLeft="326,488" />
+        <NodeLayout
+          Size="122.666666666667,42"
           Id="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\CD TMP"
           TopLeft="344,226" />
         <NodeLayout
-          Size="148,42"
-          Id="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AP"
-          TopLeft="234,34" />
+          Size="208,42"
+          Id="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SC Obtem Descrição Erro"
+          TopLeft="639,490" />
         <NodeLayout
-          Size="167,42"
-          Id="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\ODD STG AP AR"
-          TopLeft="323,311" />
+          Size="149.333333333334,42"
+          Id="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AR"
+          TopLeft="428,34" />
         <EdgeLayout
           Id="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS.Paths[Unir Tudo Saída 1]"
           TopLeft="404.5,186">
@@ -3361,6 +3480,40 @@ FROM
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,32.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS.Paths[Saída de Origem OLE DB1]"
+          TopLeft="502.5,76">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-78.8333333333334,68"
+              Start="0,0"
+              End="-78.8333333333334,60.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.3001531393568" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,36.3001531393568"
+                    Point2="0,40.3001531393568"
+                    Point3="-4,40.3001531393568" />
+                  <mssgle:LineSegment
+                    End="-74.8333333333334,40.3001531393568" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-74.8333333333334,40.3001531393568"
+                    Point2="-78.8333333333334,40.3001531393568"
+                    Point3="-78.8333333333334,44.3001531393568" />
+                  <mssgle:LineSegment
+                    End="-78.8333333333334,60.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3539,47 +3692,17 @@ FROM
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="149,42"
-          Id="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AR"
-          TopLeft="428,34" />
-        <EdgeLayout
-          Id="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS.Paths[Saída de Origem OLE DB1]"
-          TopLeft="502.5,76">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-78.8333333333334,68"
-              Start="0,0"
-              End="-78.8333333333334,60.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.3001531393568" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,36.3001531393568"
-                    Point2="0,40.3001531393568"
-                    Point3="-4,40.3001531393568" />
-                  <mssgle:LineSegment
-                    End="-74.8333333333334,40.3001531393568" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-74.8333333333334,40.3001531393568"
-                    Point2="-78.8333333333334,40.3001531393568"
-                    Point3="-78.8333333333334,44.3001531393568" />
-                  <mssgle:LineSegment
-                    End="-78.8333333333334,60.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AP">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\ODD Insere Ctrl Erros">
     <Properties>
@@ -3594,7 +3717,7 @@ FROM
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\ODD Insere Row By Row">
+    design-time-name="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\ODD STG AP AR">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3607,15 +3730,7 @@ FROM
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\SRC TMP AP">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\ODD STG AP AR">
+    design-time-name="Package\MP_STG_BAAN_ERRO_DOCTO_ATHUS\ODD Insere Row By Row">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
