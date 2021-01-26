@@ -7,12 +7,12 @@
   DTS:CreatorName="BEMIS\d0107640"
   DTS:DTSID="{C0D963FC-D56D-48EA-8A7C-67F7201C3246}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.2000.121"
+  DTS:LastModifiedProductVersion="15.0.2000.132"
   DTS:LocaleID="1046"
   DTS:ObjectName="MP_TMP_BAAN_FAAP003"
   DTS:PackageType="5"
-  DTS:VersionBuild="13"
-  DTS:VersionGUID="{20E3E347-7193-479F-9301-30F76B8406CA}">
+  DTS:VersionBuild="14"
+  DTS:VersionGUID="{A362E3E4-07C0-43B4-82E1-1FDCE9BB4CF7}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -376,6 +376,13 @@
                       cachedDataType="dbDate"
                       cachedName="_DTA_PROC"
                       lineageId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DTA_PROC]" />
+                    <inputColumn
+                      refId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Inputs[Entrada de Coluna Derivada].Columns[_COD_SUNO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="_COD_SUNO"
+                      lineageId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_SUNO]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -568,6 +575,30 @@
                           description="Expressão Amigável de Coluna Derivada"
                           expressionType="Notify"
                           name="FriendlyExpression">(DT_DBDATE)_DTA_PROC</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[COD_SUNO]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Computação"
+                      errorRowDisposition="FailComponent"
+                      length="10"
+                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[COD_SUNO]"
+                      name="COD_SUNO"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expressão de Coluna Derivada"
+                          name="Expression">(DT_STR,10,1252)#{Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_SUNO]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expressão Amigável de Coluna Derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_STR,10,1252)_COD_SUNO</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -1094,6 +1125,14 @@
                       cachedName="DTA_PROC"
                       externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[DTA_PROC]"
                       lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DTA_PROC]" />
+                    <inputColumn
+                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].Columns[COD_SUNO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="COD_SUNO"
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_SUNO]"
+                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[COD_SUNO]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1133,6 +1172,12 @@
                       refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[DTA_PROC]"
                       dataType="dbDate"
                       name="DTA_PROC" />
+                    <externalMetadataColumn
+                      refId="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_SUNO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      name="COD_SUNO" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -1279,6 +1324,14 @@
                       cachedName="DTA_PROC"
                       externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].ExternalColumns[DTA_PROC]"
                       lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[DTA_PROC]" />
+                    <inputColumn
+                      refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].Columns[COD_SUNO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="COD_SUNO"
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_SUNO]"
+                      lineageId="Package\MP_TMP_BAAN_FAAP003\CD TMP.Outputs[Saída de Coluna Derivada].Columns[COD_SUNO]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1318,6 +1371,12 @@
                       refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].ExternalColumns[DTA_PROC]"
                       dataType="dbDate"
                       name="DTA_PROC" />
+                    <externalMetadataColumn
+                      refId="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar.Inputs[Entrada de Destino OLE DB].ExternalColumns[COD_SUNO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      name="COD_SUNO" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -2309,7 +2368,8 @@ DECLARE @temp TABLE (
 	ERRIDS		VARCHAR(100),
 	DOCNUM		INT,
 	CIANUM		INT,
-	DTA_PROC	DATE
+	DTA_PROC	DATE,
+	COD_SUNO	VARCHAR(10)
 	)
 
 INSERT INTO @temp
@@ -2317,7 +2377,8 @@ SELECT
 	aap.t_motv_c,
 	aap.t_ninv_c,
 	aap.t_ncmp_c,
-	CONVERT(DATE, aap.t_dtpr_c) AS "t_dtpr_c"
+	CONVERT(DATE, aap.t_dtpr_c) AS "t_dtpr_c",
+	aap.t_suno_c
 FROM
 	baandb..ttfaap003100 aap (NOLOCK)
 WHERE
@@ -2331,12 +2392,14 @@ BEGIN
 			@DELIMITOR	CHAR(01),
 			@DOCNUM		INT,
 			@CIANUM		INT,
-			@DTA_PROC	DATE
+			@DTA_PROC	DATE,
+			@COD_SUNO	VARCHAR(10)
 
 	SELECT
 		@DOCNUM=DOCNUM,
 		@CIANUM=CIANUM,
-		@DTA_PROC=DTA_PROC
+		@DTA_PROC=DTA_PROC,
+		@COD_SUNO=COD_SUNO
 	FROM
 		@temp
 	WHERE
@@ -2353,7 +2416,8 @@ BEGIN
 		ERRID		VARCHAR(MAX),
 		DOCNUM		INT,
 		CIANUM		INT,
-		DTA_PROC	DATE	)
+		DTA_PROC	DATE,
+		COD_SUNO	VARCHAR(10))
 
 	BEGIN
 		DECLARE @DELIMITORPOSITION INT=CHARINDEX(@DELIMITOR, @SQLQUERY),
@@ -2374,7 +2438,7 @@ BEGIN
 			SET @VALUE=SUBSTRING(@SQLQUERY, @STARTPOSITION, @DELIMITORPOSITION - @STARTPOSITION)
 
 			IF (@VALUE &lt;&gt; '')
-				INSERT INTO @RESULT (ERRID, DOCNUM, CIANUM, DTA_PROC) VALUES (@VALUE, @DOCNUM, @CIANUM, @DTA_PROC)
+				INSERT INTO @RESULT (ERRID, DOCNUM, CIANUM, DTA_PROC, COD_SUNO) VALUES (@VALUE, @DOCNUM, @CIANUM, @DTA_PROC, @COD_SUNO)
 
 			SET @STARTPOSITION=@DELIMITORPOSITION + 1
 			SET @DELIMITORPOSITION=CHARINDEX(@DELIMITOR, @SQLQUERY, @STARTPOSITION)
@@ -2389,7 +2453,8 @@ SELECT
 	res.ERRID,
 	res.DOCNUM,
 	res.DTA_PROC,
-	err.t_desc_c
+	err.t_desc_c,
+	res.COD_SUNO
 FROM
 	@RESULT res
 	INNER JOIN	baandb..ttfaap011100 err (NOLOCK)
@@ -2477,6 +2542,17 @@ FROM
                       lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_DTA_PROC]"
                       name="_DTA_PROC"
                       truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_COD_SUNO]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[COD_SUNO]"
+                      length="10"
+                      lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_COD_SUNO]"
+                      name="_COD_SUNO"
+                      truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2503,6 +2579,12 @@ FROM
                       refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[DTA_PROC]"
                       dataType="dbDate"
                       name="DTA_PROC" />
+                    <externalMetadataColumn
+                      refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].ExternalColumns[COD_SUNO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      name="COD_SUNO" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -2538,6 +2620,13 @@ FROM
                       length="255"
                       lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[t_desc_c]"
                       name="t_desc_c" />
+                    <outputColumn
+                      refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[COD_SUNO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[COD_SUNO]"
+                      name="COD_SUNO" />
                     <outputColumn
                       refId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Erro de Origem OLE DB].Columns[ErrorCode]"
                       dataType="i4"
@@ -2635,6 +2724,21 @@ FROM
                           name="OutputColumnLineageID">#{Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DTA_PROC]}</property>
                       </properties>
                     </inputColumn>
+                    <inputColumn
+                      refId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Inputs[Unir Tudo Entrada 1].Columns[_COD_SUNO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="_COD_SUNO"
+                      lineageId="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100.Outputs[Saída de Origem OLE DB].Columns[_COD_SUNO]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Identificação de linhagem de coluna de saída"
+                          name="OutputColumnLineageID">#{Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_SUNO]}</property>
+                      </properties>
+                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -2679,6 +2783,13 @@ FROM
                       dataType="dbDate"
                       lineageId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_DTA_PROC]"
                       name="_DTA_PROC" />
+                    <outputColumn
+                      refId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_SUNO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      lineageId="Package\MP_TMP_BAAN_FAAP003\Unir Tudo.Outputs[Unir Tudo Saída 1].Columns[_COD_SUNO]"
+                      name="_COD_SUNO" />
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -2790,19 +2901,19 @@ FROM
       DTS:To="Package\EST Atualiza Dim Auditoria 1" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
-<!--Esta seção CDATA contém as informações de layout do pacote. A seção inclui informações como coordenadas (x,y), largura e altura.-->
-<!--Se você editar manualmente esta seção e cometer algum erro, poderá excluí-la. -->
-<!--O pacote ainda poderá ser carregado normalmente, mas as informações de layout anteriores serão perdidas e o designer reorganizará automaticamente os elementos na superfície de design.-->
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
 <Objects
   Version="8">
-  <!--Cada nó abaixo conterá propriedades que não afetam o comportamento em tempo de execução.-->
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
   <Package
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="239,42"
+          Size="238.666666666667,42"
           Id="Package\EST Apaga Ultimos Erros Carga"
           TopLeft="58,115" />
         <NodeLayout
@@ -2822,7 +2933,7 @@ FROM
           Id="Package\EST Busca Parametro"
           TopLeft="90,29" />
         <NodeLayout
-          Size="209,42"
+          Size="209.333333333334,42"
           Id="Package\EST Insere DIM_Auditoria"
           TopLeft="80,197" />
         <NodeLayout
@@ -2830,7 +2941,7 @@ FROM
           Id="Package\EST Trunca TMP"
           TopLeft="420,198" />
         <NodeLayout
-          Size="193,42"
+          Size="193.333333333334,42"
           Id="Package\MP_TMP_BAAN_FAAP003"
           TopLeft="414,292" />
         <EdgeLayout
@@ -2996,41 +3107,41 @@ FROM
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="183,42"
-          Id="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro"
-          TopLeft="326,488" />
-        <NodeLayout
           Size="208,42"
           Id="Package\MP_TMP_BAAN_FAAP003\SC Obtem Descrição Erro"
           TopLeft="639,490" />
-        <NodeLayout
-          Size="121,42"
-          Id="Package\MP_TMP_BAAN_FAAP003\RC Erro"
-          TopLeft="677,404" />
         <NodeLayout
           Size="188,42"
           Id="Package\MP_TMP_BAAN_FAAP003\ODD Insere Ctrl Erros"
           TopLeft="330,586" />
         <NodeLayout
-          Size="129,42"
-          Id="Package\MP_TMP_BAAN_FAAP003\Unir Tudo"
-          TopLeft="339,144" />
-        <NodeLayout
-          Size="205,42"
+          Size="205.333333333334,42"
           Id="Package\MP_TMP_BAAN_FAAP003\ODD Insere Row By Row"
           TopLeft="635,316" />
-        <NodeLayout
-          Size="123,42"
-          Id="Package\MP_TMP_BAAN_FAAP003\CD TMP"
-          TopLeft="344,226" />
-        <NodeLayout
-          Size="171,42"
-          Id="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100"
-          TopLeft="166,34" />
         <NodeLayout
           Size="172,42"
           Id="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar"
           TopLeft="323,311" />
+        <NodeLayout
+          Size="170.666666666667,42"
+          Id="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100"
+          TopLeft="166,34" />
+        <NodeLayout
+          Size="121.333333333334,42"
+          Id="Package\MP_TMP_BAAN_FAAP003\RC Erro"
+          TopLeft="677,404" />
+        <NodeLayout
+          Size="182.666666666667,42"
+          Id="Package\MP_TMP_BAAN_FAAP003\DC Criar Layout Erro"
+          TopLeft="326,488" />
+        <NodeLayout
+          Size="122.666666666667,42"
+          Id="Package\MP_TMP_BAAN_FAAP003\CD TMP"
+          TopLeft="344,226" />
+        <NodeLayout
+          Size="129.333333333334,42"
+          Id="Package\MP_TMP_BAAN_FAAP003\Unir Tudo"
+          TopLeft="339,144" />
         <EdgeLayout
           Id="Package\MP_TMP_BAAN_FAAP003.Paths[Unir Tudo Saída 1]"
           TopLeft="404.5,186">
@@ -3253,14 +3364,6 @@ FROM
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\MP_TMP_BAAN_FAAP003\ODD TMP CPagar">
     <Properties>
       <Property>
@@ -3270,6 +3373,14 @@ FROM
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\MP_TMP_BAAN_FAAP003\SRC TMP Cia 100">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
